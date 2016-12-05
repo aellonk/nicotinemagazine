@@ -1,0 +1,409 @@
+html, body {
+	font-family: 'Lustria', serif;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+p {
+	margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  }
+
+.container{
+  width: 100%;
+  }
+
+.logo {
+	float:left;
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.nav-left {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding-top: 1em;
+ }
+
+.nav-right {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	padding-top: 1.1em;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+	width: 100%;
+}
+
+.col-2-3 {
+  width: 66.66%;
+  float: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  line-height: 1.5em;
+  padding-right: 10%;
+}
+
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+.col-1-2 {
+	width: 50%;
+	float: left;
+	padding-left: 10%;
+  	padding-top: 5%;
+}
+
+.col-1-4 {
+	width: 25%;
+	float: left;
+	line-height: 1.5em;
+	padding-bottom: 2%;
+
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.highlight {
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+	display: -webkit-inline-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li{
+	float: right;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+div a {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	color: #000000;
+	float: left;
+	padding-top: 7.813em;
+	padding-right: 7.813em;
+	padding-left: 7.813em;
+	vertical-align: top;
+	font-size: 1.875em;
+}
+
+h2 {
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 2%;
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+
+h4 {
+	text-align: center;
+	font-size: 0.25em;
+}
+h5 {
+	color: #000000;
+	float: left;
+	font-size: 0.75em;
+	padding-top: 2em;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	min-width: 5em;
+}
+
+.dropdown-content a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: .75em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.dropdown-content a:hover {
+	color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.parallax1 { 
+    background-image: url("parallax.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 { 
+    background-image: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/bigcover.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ol {
+	list-style-type: none;
+}
+
+.section-header {
+	display: inline-block;
+	width: inherit;
+	font-size: 3.750em;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 3%;
+}
+
+.section-title {
+	font-style: italic; 
+	font-size: .6em;
+}
+
+.section-desc {
+	text-align: center;
+	display: inline-block;
+	width: inherit;
+}
+
+.cancer-bg {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10%;
+	padding-right: 0;
+}
+
+.cancer-md {
+	padding-right: 0;
+	text-align: center;
+}
+
+.cancer-sm {
+	padding-top: 5%;
+	line-height: 1em;
+	font-size: .75em;
+	text-align: center;
+
+}
+
+#center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+	width: auto;
+	margin: auto;
+	display: block;
+	max-height: 100%;
+	padding-bottom: 0.5%;
+}
+
+
+footer {
+	padding-top:5%;
+	text-align: center;
+}
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background-color: #000000;
+	background: url("uparrowicon.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+a:hover {
+	color: #c60000;
+}
+
+
+.carton {
+ width: 80%;
+ margin-right:auto;
+ margin-left:auto;
+ overflow: hidden;
+ padding-top: 6.250em;
+}
+
+.galleryItem {
+ color: #797478;
+ font: 10px/1.5;
+ float: left;
+ width: 16%;
+ margin:  2% 2% 15px 2%; 
+}
+ 
+.galleryItem h3 {
+ text-align: center;
+ color: #000000;
+ font-size: 1em;
+}
+ 
+.galleryItem img {
+ max-width: 100%;
+ -webkit-border-radius: 1px;
+ -moz-border-radius: 1px;
+ border-radius: 1px;
+ box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.social-media {
+	text-align: center;
+}
+
+div.social-media a {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 2%;
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+	width: 100%;
+}
+
+video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+/* media queries */
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px){
+	.galleryItem {width: 21%;}
+}
+
+@media only screen and (max-width : 720px), only screen and (max-device-width : 720px){
+	.galleryItem {width: 29.33333%;}
+	.logo {
+		font-size: 45px;
+	}
+	h5 {
+		font-size: 1em;
+		margin: 0;
+		padding-left: 1em;
+		padding-top: 0em;
+	}
+}
+
+@media only screen and (max-width : 530px), only screen and (max-device-width : 530px){
+	.galleryItem {width: 46%;}
+}
+ 
+@media only screen and (max-width : 320px), only screen and (max-device-width : 320px){
+	.galleryItem {width: 96%;}
+	.galleryItem img {width: 96%;}
+	.galleryItem h3 {font-size: 18px;}
+}
