@@ -428,18 +428,23 @@ video.fullscreen {
 	}
 
 	.dropdown-content a {
-		font-size: 2em;
+		font-size: 1.25em;
+	}
+
+	.nav-left {
+	width: 40%;
 	}
 
 	.nav-right {
-		font-size: 2em;
+		font-size: 2.25em;
+		width: 60%;
 	}
 
 	h1 {
 		padding-top: 10em;
 		padding-right: 6em;
 		padding-left: 2em;
-		font-size: 2em;
+		font-size: 4em;
 		text-align: center;
 	}
 
@@ -448,7 +453,7 @@ video.fullscreen {
 	}
 
 	h4 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	#editor {
@@ -493,7 +498,8 @@ video.fullscreen {
 
 	.cancer-3 {
 		width: 50%;
-		font-size: 4em;
+		font-size: 1.75em;
+		padding-right: 10%;
 	}
 
 	.cancer-sm {
@@ -524,33 +530,42 @@ video.fullscreen {
 	}
 
 	.dropdown-content a {
-		font-size: 2em;
+		font-size: 1.25em;
+	}
+
+	.nav-left {
+	width: 40%;
 	}
 
 	.nav-right {
-		font-size: 2em;
+		font-size: 2.25em;
+		width: 60%;
 	}
 
 	h1 {
 		padding-top: 10em;
 		padding-right: 6em;
 		padding-left: 2em;
-		font-size: 2em;
+		font-size: 4em;
 		text-align: center;
 	}
 
-	h3 {
-		font-size: 4em;
+	#contents {
+		font-size: 5em;
 	}
 
 	h4 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 
 	#editor {
 		padding-top: 10%;
 		font-size: 5em;
+	}
+
+	h3 {
+		font-size: 
 	}
 
 	.col-2-3 {
@@ -590,7 +605,8 @@ video.fullscreen {
 
 	.cancer-3 {
 		width: 50%;
-		font-size: 4em;
+		font-size: 1.75em;
+		padding-right: 10%;
 	}
 
 	.cancer-sm {
@@ -623,27 +639,32 @@ video.fullscreen {
 	}
 
 	.dropdown-content a {
-		font-size: 2em;
+		font-size: 1.25em;
+	}
+
+	.nav-left {
+	width: 40%;
 	}
 
 	.nav-right {
-		font-size: 2em;
+		font-size: 2.25em;
+		width: 60%;
 	}
 
 	h1 {
 		padding-top: 10em;
 		padding-right: 6em;
 		padding-left: 2em;
-		font-size: 2em;
+		font-size: 4em;
 		text-align: center;
 	}
 
 	h3 {
-		font-size: 4em;
+		font-size: 5em;
 	}
 
 	h4 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	#editor {
@@ -688,7 +709,8 @@ video.fullscreen {
 
 	.cancer-3 {
 		width: 50%;
-		font-size: 4em;
+		font-size: 1.75em;
+		padding-right: 10%;
 	}
 
 	.cancer-sm {
