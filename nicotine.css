@@ -411,8 +411,15 @@ video.fullscreen {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 	.parallax1 { 
-   	 background-image: url("parallax640.jpg");
-	-webkit-background-size: 100%;
+   	background-image: url("parallax640.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 	}
 
 	.logo {
@@ -515,7 +522,14 @@ video.fullscreen {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 	.parallax1 { 
    	 background-image: url("parallax640.jpg");
-	-webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 	}
 
 	.logo {
@@ -625,7 +639,14 @@ video.fullscreen {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
 	.parallax1 { 
     	background-image: url("parallax640.jpg");
-	-webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 	}
 
 	.logo {
