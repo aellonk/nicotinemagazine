@@ -410,6 +410,14 @@ video.fullscreen {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+	.dropdown-content a {
+	display:none; position:absolute;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display:block; list-style:none;
+	}
+	
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
     background-attachment: scroll;
@@ -526,6 +534,14 @@ video.fullscreen {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+	.dropdown-content a {
+	display:none; position:absolute;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display:block; list-style:none;
+	}
+	
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
     background-attachment: scroll;
@@ -649,6 +665,14 @@ video.fullscreen {
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+	.dropdown-content a {
+	display:none; position:absolute;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display:block; list-style:none;
+	}
+	
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
     background-attachment: scroll;
