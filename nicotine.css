@@ -412,7 +412,19 @@ video.fullscreen {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
-   	background-attachment: scroll;
+    background-attachment: scroll;
+	background-position: top;
+	}
+
+	.parallax2 { 
+    background-image: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: top;
+	}
+
+	.parallax3 { 
+    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    background-attachment: scroll;
 	background-position: top;
 	}
 
@@ -516,10 +528,22 @@ video.fullscreen {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
-   	background-attachment: scroll;
+    background-attachment: scroll;
 	background-position: top;
 	}
 
+	.parallax2 { 
+    background-image: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: top;
+	}
+
+	.parallax3 { 
+    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    background-attachment: scroll;
+	background-position: top;
+	}
+	
 	.logo {
 	float:left;
 	font-size: 4em;
@@ -627,10 +651,21 @@ video.fullscreen {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
 	.parallax1 { 
 	background-image: url(parallax640.jpg);
-   	background-attachment: scroll;
+    background-attachment: scroll;
 	background-position: top;
 	}
 
+	.parallax2 { 
+    background-image: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: top;
+	}
+
+	.parallax3 { 
+    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    background-attachment: scroll;
+	background-position: top;
+	}
 	.logo {
 	float:left;
 	font-size: 4em;
