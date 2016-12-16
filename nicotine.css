@@ -411,9 +411,12 @@ video.fullscreen {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 	.parallax1 { 
-   	background-image: url("parallax640.jpg");
-	max-height: 568px;
-	max-width: 320px;
+    	background-image: url("parallax640.jpg");
+    	background-attachment: scroll;
+	background-position: top;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	background-size: auto;
 	}
 
 	.logo {
@@ -515,9 +518,12 @@ video.fullscreen {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 	.parallax1 { 
-   	 background-image: url("parallax640.jpg");
-   	 max-height: 667px;
-	 max-width: 375px;
+    	background-image: url("parallax640.jpg");
+    	background-attachment: scroll;
+	background-position: top;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	background-size: auto;
 	}
 
 	.logo {
@@ -627,8 +633,11 @@ video.fullscreen {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
 	.parallax1 { 
     	background-image: url("parallax640.jpg");
-	max-height: 667px;
-	max-width: 375px;
+    	background-attachment: scroll;
+	background-position: top;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	background-size: auto;
 	}
 
 	.logo {
