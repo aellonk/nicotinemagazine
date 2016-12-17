@@ -390,6 +390,14 @@ video.fullscreen {
 	.dropdown:hover .dropdown-content {
 	display: block;
 	}
+	
+	
+	footer img {
+	max-height: 50px;
+   	max-width: 50px;
+     	width: auto;
+     	height: auto;
+	}
 }
 
 /* ----------- Retina Screens ----------- */
@@ -422,6 +430,13 @@ video.fullscreen {
 
 	.dropdown:hover .dropdown-content {
 	display: block;
+	}
+	
+	footer img {
+	max-height: 50px;
+   	max-width: 50px;
+     	width: auto;
+     	height: auto;
 	}
 }
 
@@ -568,6 +583,13 @@ video.fullscreen {
 	footer {
 		font-size: 2em;
 	}
+	
+	footer img {
+	 max-height: 80%;
+    	 max-width: 80%;
+    	 width: auto;
+    	 height: auto;
+	}
 }	
 
 
@@ -700,6 +722,13 @@ video.fullscreen {
 	footer {
 		font-size: 2em;
 	}
+	
+	footer img {
+	 max-height: 80%;
+    	 max-width: 80%;
+    	 width: auto;
+    	 height: auto;
+	}
 }
 
 
@@ -828,4 +857,10 @@ video.fullscreen {
 		font-size: 2em;
 	}
 
+	footer img {
+	 max-height: 80%;
+    	 max-width: 80%;
+    	 width: auto;
+    	 height: auto;
+	}
 }
