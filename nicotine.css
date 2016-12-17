@@ -564,7 +564,10 @@ video.fullscreen {
 	#center-vertical {
 		display: block;
 	}
-
+	
+	footer {
+		font-size: 2em;
+	}
 }	
 
 
@@ -693,7 +696,10 @@ video.fullscreen {
 	#center-vertical {
 		display: block;
 	}
-
+	
+	footer {
+		font-size: 2em;
+	}
 }
 
 
@@ -818,5 +824,8 @@ video.fullscreen {
 		display: block;
 	}
 
+	footer {
+		font-size: 2em;
+	}
 
 }
