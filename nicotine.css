@@ -163,35 +163,6 @@ h5 {
 	padding-top: 2em;
 }
 
-li.dropdown {
-	display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: transparent;
-	min-width: 5em;
-}
-
-.dropdown-content a {
-	color: #000000;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-	font-size: .75em;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-
-.dropdown-content a:hover {
-	color: #ffffff;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
 .parallax1 { 
     background-image: url("parallax.jpg");
     height: 100%; 
@@ -385,6 +356,73 @@ video.fullscreen {
   background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
+}
+
+/* media queries for laptops*/
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+	li.dropdown {
+	display: inline-block;
+	}
+
+	.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	min-width: 5em;
+	}
+
+	.dropdown-content a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: .75em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+
+	.dropdown-content a:hover {
+	color: #ffffff;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display: block;
+	}
+}
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+	li.dropdown {
+	display: inline-block;
+	}
+
+	.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	min-width: 5em;
+	}
+
+	.dropdown-content a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: .75em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	}
+
+	.dropdown-content a:hover {
+	color: #ffffff;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display: block;
+	}
 }
 
 /* media queries */
