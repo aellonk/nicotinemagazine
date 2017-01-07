@@ -27,6 +27,30 @@ header {
 	padding-left: 10px;
 }
 
+.navbar-brand {
+	padding: 0 6px 0 6px;
+}
+
+.navbar-default {
+	border: none;
+}
+
+.navbar-fixed-left {
+  width: 75px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 80px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 120px;
+}
+
 .nav-left {
 	display: inline-block;
 	float: left;
