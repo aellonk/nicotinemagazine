@@ -60,6 +60,7 @@ header {
 	float: left;
 	width: 50%;
 	padding-top: 1em;
+	position: fixed;
  }
 
 .nav-right {
@@ -81,6 +82,18 @@ header {
 
 .grid {
 	width: 100%;
+}
+
+.masthead {
+	color: white;
+	text-align: center;
+}
+
+.editor {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 11em;
 }
 
 .col-2-3 {
@@ -191,25 +204,8 @@ h5 {
 	padding-top: 2em;
 }
 
-.parallax1 { 
-    background-image: url("parallax.jpg");
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax2 { 
-    background-image: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/bigcover.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .parallax3 { 
-    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    background-image: url("fullwidthplaceholder.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
