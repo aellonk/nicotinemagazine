@@ -1,1 +1,4 @@
 
+[submodule "Scrollify"]
+	path = Scrollify
+	url = https://github.com/lukehaas/Scrollify.git
