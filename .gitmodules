@@ -2,3 +2,6 @@
 [submodule "Scrollify"]
 	path = Scrollify
 	url = https://github.com/lukehaas/Scrollify.git
+[submodule "slick"]
+	path = slick
+	url = https://github.com/aellonk/slick.git
