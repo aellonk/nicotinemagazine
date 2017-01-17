@@ -80,7 +80,7 @@ header {
 	position: absolute;
   	top: 50%;
   	transform: translateY(-50%);
-  	background-color: black;
+  	background-color: white;
 }
 
 .masthead {
@@ -166,7 +166,6 @@ li a {
 div a {
 	list-style-type: none;
 	text-decoration: none;
-	color: white;
 }
 
 h1 {
