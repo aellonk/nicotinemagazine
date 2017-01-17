@@ -75,8 +75,12 @@ header {
 }
 
 
-.grid {
+.contents {
 	width: 100%;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	background-color: black;
 }
 
 .masthead {
@@ -329,6 +333,10 @@ div.social-media a {
 	display: inline-block;
 	text-align: left;
 	margin-bottom: 2%;
+}
+
+.parent-container {
+	position: relative;
 }
 
 .start-issue {
