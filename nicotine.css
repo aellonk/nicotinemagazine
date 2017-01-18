@@ -97,9 +97,9 @@ header {
 
 .editor {
 	color: white;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 11em;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .col-2-3 {
@@ -564,11 +564,6 @@ video.fullscreen {
 		font-size: 2em;
 	}
 
-	#editor {
-		padding-top: 10%;
-		font-size: 5em;
-	}
-
 	.col-2-3 {
 		width: 100%;
 		font-size: 4em;
@@ -684,12 +679,6 @@ video.fullscreen {
 
 	h4 {
 		font-size: 2em;
-	}
-
-
-	#editor {
-		padding-top: 10%;
-		font-size: 5em;
 	}
 
 	h3 {
@@ -810,11 +799,6 @@ video.fullscreen {
 
 	h4 {
 		font-size: 2em;
-	}
-
-	#editor {
-		padding-top: 10%;
-		font-size: 5em;
 	}
 
 	.col-2-3 {
