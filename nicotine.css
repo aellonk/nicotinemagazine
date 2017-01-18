@@ -10,7 +10,6 @@ html, body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
-	background-color: black;
 }
 
 p {
@@ -30,6 +29,10 @@ header {
  	margin-right: auto;
  	margin-left: auto;
  }
+
+.bg-color {
+	background-color: black;
+}
 
 .container{
   width: 100%;
@@ -77,9 +80,6 @@ header {
 
 .contents {
 	width: 100%;
-	position: absolute;
-  	top: 50%;
-  	transform: translateY(-50%);
   	background-color: white;
 }
 
@@ -207,12 +207,7 @@ h4 {
 	text-align: center;
 	font-size: 0.25em;
 }
-h5 {
-	color: #000000;
-	float: left;
-	font-size: 0.75em;
-	padding-top: 2em;
-}
+
 
 .parallax3 { 
     background-image: url("fullwidthplaceholder.png");
@@ -222,6 +217,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 ol {
 	list-style-type: none;
 }
@@ -281,12 +277,6 @@ ol {
   align-items: center;
 }
 
-
-footer {
-	padding-top:5%;
-	text-align: center;
-}
-
 a.back-to-top {
 	display: none;
 	width: 60px;
@@ -334,16 +324,6 @@ a.back-to-top {
 
 .small-margin {
 	margin: .5% .5% 14px 0;
-}
-
-.social-media {
-	text-align: center;
-}
-
-div.social-media a {
-	display: inline-block;
-	text-align: left;
-	margin-bottom: 2%;
 }
 
 .parent-container {
@@ -405,6 +385,25 @@ div.social-media a {
   	background-size: 100%;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
+address a {
+	text-decoration: none;
+	color: inherit;
+	font-style: normal;
+	font-size: .75em;
+}
+
+address p {
+	font-size: 2em;
+}
+
+.social-media {
+
+}
+
 .fullscreen-bg {
     position: fixed;
     top: 0;
@@ -417,43 +416,35 @@ div.social-media a {
 
 .fullscreen-bg__video {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
 }
 
-.underline {
-	text-decoration: underline;
-}
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('white.gif') center center / cover no-repeat;
+    }
 
-video {
-	width: 100%;
+    .fullscreen-bg__video {
+        display: none;
+    }
 }
-
-video.fullscreen { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
 	
 	footer img {
-	max-height: 50px;
-   	max-width: 50px;
+	max-height: 30px;
+   	max-width: 30px;
      	width: auto;
      	height: auto;
 	}
@@ -464,8 +455,8 @@ video.fullscreen {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
 	
 	footer img {
-	max-height: 50px;
-   	max-width: 50px;
+	max-height: 30px;
+   	max-width: 30px;
      	width: auto;
      	height: auto;
 	}
@@ -671,10 +662,6 @@ video.fullscreen {
 		padding-left: 2em;
 		font-size: 4em;
 		text-align: center;
-	}
-
-	#contents {
-		font-size: 5em;
 	}
 
 	h4 {
