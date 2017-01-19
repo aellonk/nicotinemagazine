@@ -334,9 +334,8 @@ a.back-to-top {
 
 .scroller {
 	padding-left: 13em;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
-	max-height: 100%;
 	background-color: white;
 	white-space: nowrap;
 	overflow-y: hidden;
@@ -353,30 +352,30 @@ a.back-to-top {
 .one {
 	padding-left: 13em;
   	background: url("IssueStartPlaceholder.png") no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
 }
 
 .two {
 	padding-left: 13em;
  	background: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/lllllsmall01.jpg") no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
 }
 
 .three {
 	padding-left: 13em;
 	background: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/lllllsmall02.jpg") no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
 }
 
 .four {
 	padding-left: 13em;
 	background: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/NICOTINE%2016_Kent%20Andreasen2.jpg") no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
 }
 
 .five {
 	background: url("http://nicotinemag.com/issuesixteen/issuesixteen_images/NICOTINE%2016_Kent%20Andreasen3.jpg") no-repeat;
-  	background-size: 100%;
+  	background-size: cover;
 }
 
 .underline {
