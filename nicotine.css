@@ -75,6 +75,9 @@ header {
 .contents {
 	width: 100%;
   	background-color: white;
+  	display: inline-flex;
+  	padding-top: 1.5em;
+  	padding-bottom: 1em;
 }
 
 .masthead {
@@ -121,9 +124,9 @@ header {
 }
 
 .col-1-4 {
-	width: 25%;
+	width: 12em;
 	float: left;
-	line-height: 1.5em;
+	line-height: 1.25em;
 	padding-bottom: 2%;
 
 }
@@ -166,6 +169,7 @@ ul li a {
 ol li a {
     display: block;
     color: #000000;
+    padding-bottom: .25em;
 
 }
 
@@ -214,6 +218,7 @@ h4 {
 
 ol {
 	list-style-type: none;
+	margin: 0 auto;
 }
 
 .section-header {
@@ -296,11 +301,8 @@ a.back-to-top {
 }
 
 .galleryItem {
- color: #797478;
- font: 10px/1.5;
  float: left;
  width: 16%;
- margin:  2% 2% 15px 2%; 
 }
  
 .galleryItem h3 {
@@ -316,8 +318,25 @@ a.back-to-top {
  border-radius: 1px;
 }
 
+.center {
+	text-align: center;
+}
+
+.bottom-align {
+	position: absolute;
+	bottom: 0;
+}
+
 .small-margin {
 	margin: .5% .5% 14px 0;
+}
+
+.contributor {
+	font-size: 1em;
+}
+
+.story {
+	font-size: .8em;
 }
 
 .parent-container {
@@ -394,7 +413,7 @@ address p {
 }
 
 .social-media {
-
+	margin: 0 auto;
 }
 
 .fullscreen-bg {
@@ -559,7 +578,6 @@ address p {
 	}
 
 	.col-1-4 {
-		width: 100%;
 		float: none;
 		padding-bottom: 0;
 		font-size: 3em;
@@ -673,7 +691,6 @@ address p {
 	}
 
 	.col-1-4 {
-		width: 100%;
 		float: none;
 		padding-bottom: 0;
 		font-size: 3em;
@@ -789,7 +806,6 @@ address p {
 	}
 
 	.col-1-4 {
-		width: 100%;
 		float: none;
 		padding-bottom: 0;
 		font-size: 3em;
