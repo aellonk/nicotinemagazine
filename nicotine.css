@@ -317,7 +317,11 @@ a.back-to-top {
  float: left;
  width: 16%;
 }
- 
+
+.contributor{
+	margin:  2% 2% 15px 2%;
+}
+
 .galleryItem h3 {
  text-align: center;
  color: #000000;
@@ -342,10 +346,6 @@ a.back-to-top {
 
 .small-margin {
 	margin: .5% .5% 14px 0;
-}
-
-.contributor {
-	font-size: 1em;
 }
 
 .story {
