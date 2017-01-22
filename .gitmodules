@@ -2,3 +2,6 @@
 [submodule "Scrollify"]
 	path = Scrollify
 	url = https://github.com/lukehaas/Scrollify.git
+[submodule "portfoliojs"]
+	path = portfoliojs
+	url = https://github.com/aellonk/portfoliojs.git
