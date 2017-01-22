@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>nicotine magazine</title>
 	<link rel="stylesheet" type="text/css" href="nicotine.css">
+	
 </head>
 <body>
 	<header>
-    	<div class="navbar navbar-default navbar-fixed-left">
-    		<a href="index.html"><img class="logo" src="nicologowhite.png" Alt="logo image"></h5></a>
+    	<div class="navbar-fixed-left">
+    		<a href="index.html"><img class="logo" src="nicologowhite.png" Alt="logo image"></a>
 		</div>
 		<div class="nav-top">
 			<ul>
@@ -19,13 +21,13 @@
 	</header>
 
 <div class="bg-color">
-	<section>
-		<img class="cover section Slideshow" src="http://nicotinemag.com/enter/enter_images/frontcover01.jpg" Alt="Responsive Image"/>
-		<img class="cover section Slideshow" src="http://nicotinemag.com/enter/enter_images/frontcover02.jpg" Alt="Responsive Image"/>
-	</section>
+	<div class="section">
+		<img class="cover Slideshow" src="http://nicotinemag.com/enter/enter_images/frontcover01.jpg" Alt="Responsive Image"/>
+		<img class="cover Slideshow" src="http://nicotinemag.com/enter/enter_images/frontcover02.jpg" Alt="Responsive Image"/>
+</div>
 
-<section class="parent-container">
-	<div class="masthead section vertical-center">
+<div class="section parent-container">
+	<div class="masthead  vertical-center">
 		<p>nicotine is a fashion and art magazine</p>
 		<br>
 		<p class="underline">editor in chief/creative director</p>
@@ -37,10 +39,10 @@
 		<p class="underline">developer</p>
 		<p>aellon krider</p>
 	</div>
-</section>
+</div>
 
-<section class="parent-container">
-	<div class="grid editor section vertical-center">
+<div class="section parent-container">
+	<div class="grid editor  vertical-center">
 		<div>
 			<p>my neighbor downstairs is going boom boom boom with his set of speakers too complex for an apartment, so at this very moment my ass is trapped in perpetual vibration, picture that, you pervert.</p><br>
 			<p>magazines are dying, budgets are getting cut, people are wearing clothes they don't understand, everyone's getting enthralled by activities because of someone else's addiction, and we're at 16. issue 16. my favorite number. i have no favorites so that's a lie. but i do like the way the number looks, so there's that.</p><br>
@@ -48,17 +50,17 @@
 			<p>-mark lim</p>
 		</div>
 	</div>
-</section>
+</div>
 </div>
 
-<div>
-<section>
-<!-- next parallax section -->
-<div class="parallax3 section"></div>
-</section>
 
-<section class="parent-container">
-	<div id="content" class="contents section vertical-center">
+<div class="section">
+<!-- next parallax section -->
+<div class="parallax3"></div>
+</div>
+
+<div class="section parent-container">
+	<div id="content" class="contents vertical-center">
 		<ol>
 			<div class="col-1-4">
 			<li><a href="#mark"><p class="contributor">mark lim</p><p class="story">la li lu le lo</p></a></li>
@@ -77,9 +79,9 @@
 		</ol>
 	</div>
 <div class="parallax3"></div>
-</section>
+</div>
 
-<section>
+
 <div class="section issue">
 	<div class="scroller">
 	<a id="mark">
@@ -97,8 +99,6 @@
 	</div>
 	</a>
 </div>
-</div>
-</section>
 </div>
 
 
@@ -441,7 +441,7 @@
 <script>
 		$(function() {
 		$.scrollify({
-		section : "section",
+		section : ".section",
 			});
 		});
 </script>
