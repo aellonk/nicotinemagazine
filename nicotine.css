@@ -51,6 +51,11 @@ header {
 	background-image: url('http://nicotinemag.com/enter/enter_images/frontcover02.jpg');
 }
 
+.cover-padding {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 .padding {
 	padding-top: 2em;
 	padding-bottom: 2em;
