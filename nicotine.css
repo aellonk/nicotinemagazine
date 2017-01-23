@@ -51,6 +51,11 @@ header {
 	background-image: url('http://nicotinemag.com/enter/enter_images/frontcover02.jpg');
 }
 
+.cover-padding {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 .padding {
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -371,6 +376,7 @@ address p {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 	.cover {
+		background-size: 320px 568px;
 		max-height: 95vh;
 		max-width: 85vw;
 		margin: 0 auto;
@@ -424,6 +430,7 @@ address p {
 		max-height: 95vh;
 		max-width: 85vw;
 		margin: 0 auto;
+
 	}
 
 	.parallax3 { 
@@ -476,6 +483,7 @@ address p {
 		max-height: 95vh;
 		max-width: 85vw;
 		margin: 0 auto;
+
 	}
 
 	.parallax3 { 
