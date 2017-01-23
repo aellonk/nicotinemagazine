@@ -393,7 +393,7 @@ address p {
 		padding-right: 50px;
 	}
 	.parallax { 
-    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+    background-image: url("fullwidthplaceholder.png");
     background-attachment: scroll;
 	background-position: top;
 	}
@@ -447,8 +447,8 @@ address p {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
-	.parallax3 { 
-    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+	.parallax { 
+    background-image: url("fullwidthplaceholder.png");
     background-attachment: scroll;
 	background-position: top;
 	}
@@ -504,8 +504,8 @@ address p {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
-	.parallax3 { 
-    background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
+	.parallax { 
+    background-image: url("fullwidthplaceholder.png");
     background-attachment: scroll;
 	background-position: top;
 	}
