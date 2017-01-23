@@ -111,6 +111,11 @@ header {
   	padding-bottom: .5em;
 }
 
+.contents-adjust {
+	float: right;
+	padding-right: 3em;
+}
+
 .masthead {
 	color: black;
 	text-align: center;
