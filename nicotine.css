@@ -35,26 +35,16 @@ header {
 	height: 18em;
 }
 
+ 
  .cover {
- 	background-attachment: fixed;
-    background-position: top 2em center;
-    background-repeat: no-repeat;
-  	background-size: 456px 570px;
  	height: 95%;
- 	 }
-
-.one {
-	background-image: url('http://nicotinemag.com/enter/enter_images/frontcover01.jpg');
-}
-
-.two {
-	background-image: url('http://nicotinemag.com/enter/enter_images/frontcover02.jpg');
-}
-
-.cover-padding {
-	padding-left: 50px;
-	padding-right: 50px;
-}
+ 	max-height: 95%;
+ 	display: block;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	padding-top: 1.25em;
+ 	padding-bottom: .5em;
+ }
 
 .padding {
 	padding-top: 2em;
@@ -382,15 +372,10 @@ address p {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
 	
 	.cover {
-		max-height: 100%;
-		max-width: 100%;
-		margin: 0 auto;
-		background-size: contain;
-	}
-
-	.cover-padding {
-		padding-left: 50px;
-		padding-right: 50px;
+	height: 75vh;
+	width: 90vw;
+	margin: 0 auto;
+	padding-top: 2em;
 	}
 	.parallax { 
     background-image: url("fullwidthplaceholder.png");
@@ -437,10 +422,10 @@ address p {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 	.cover {
-		max-height: 100%;
-		max-width: 100%;
-		margin: 0 auto;
-		background-size: contain;
+	height: 75vh;
+	width: 90vw;
+	margin: 0 auto;
+	padding-top: 2em;
 	}
 
 	.cover-padding {
@@ -494,10 +479,10 @@ address p {
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
 	.cover {
-		max-height: 100%;
-		max-width: 100%;
-		margin: 0 auto;
-		background-size: contain;
+	height: 75vh;
+	width: 90vw;
+	margin: 0 auto;
+	padding-top: 2em;
 	}
 
 	.cover-padding {
