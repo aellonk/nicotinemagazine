@@ -370,12 +370,18 @@ address p {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+	
 	.cover {
-		max-height: 95vh;
-		max-width: 85vw;
+		max-height: 100%;
+		max-width: 100%;
 		margin: 0 auto;
+		background-size: contain;
 	}
 
+	.cover-padding {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 	.parallax { 
     background-image: url("http://nicotinemag.com/enter/enter_images/frontcover02.jpg");
     background-attachment: scroll;
