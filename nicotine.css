@@ -60,7 +60,7 @@ header {
 }
 
 .container{
-  width: 100vh;
+  width: 100%;
   }
 
 .navbar-fixed-left {
