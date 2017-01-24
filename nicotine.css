@@ -196,6 +196,15 @@ h4 {
     background-size: cover;
 }
 
+.parallax2 { 
+    background-image: url("fullwidthplaceholder.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 ol {
 	list-style-type: none;
 	margin: 0 auto;
@@ -400,11 +409,11 @@ address p {
 		font-size: 2em;
 		width: 80%;
 	}
-	.parallax { 
-    background-image: url("fullwidthplaceholder.png");
-    background-attachment: scroll;
-	background-position: top;
-	}
+
+
+	.parallax2 { 
+    display: none;
+}
 
 	.col-1-4 {
 		font-size: 2.25em;
