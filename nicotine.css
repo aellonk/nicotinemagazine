@@ -15,9 +15,7 @@ html, body {
 	font-family: 'Minion Pro', serif;
 	height: 100%;
 	margin: 0;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
+	background-color: white;
 }
 
 p {
@@ -50,9 +48,7 @@ header {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
-.bg-color {
-	background-color: white;
-}
+
 
 .container{
   width: 100%;
@@ -409,7 +405,9 @@ address p {
 		font-size: 2em;
 		width: 80%;
 	}
-
+	.parallax { 
+    background-size: contain;
+	}
 
 	.parallax2 { 
     display: none;
