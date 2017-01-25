@@ -332,6 +332,11 @@ address p {
     .fullscreen-bg__video {
         display: none;
     }
+
+    video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
 }
 /* media queries for laptops*/
 
@@ -458,22 +463,11 @@ address p {
 		display: block;
 	}
 	
-	footer {
-		font-size: 4em;
-	}
-
 	address {
 		padding-bottom: 1em;
+		font-size: 4em;
 	}
 	
-	address a {
-	font-size: 1.5em;
-	}
-	
-	address p {
-	font-size: 3em;
-	}
-
 	footer img {
 		max-height: 3em;
    		max-width: 3em;
@@ -563,15 +557,8 @@ address p {
 
 	address {
 		padding-bottom: 1em;
-	}
-	
-	address a {
-	font-size: 1.5em;
-	}
-	
-	address p {
-	font-size: 3em;
-	}
+		font-size: 4em;
+	}	
 
 	footer img {
 		max-height: 3em;
@@ -667,14 +654,7 @@ address p {
 
 	address {
 		padding-bottom: 1em;
-	}
-
-	address a {
-	font-size: 1.5em;
-	}
-	
-	address p {
-	font-size: 3em;
+		font-size: 4em;
 	}
 
 	footer img {
