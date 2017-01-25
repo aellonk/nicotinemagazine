@@ -457,7 +457,11 @@ address p {
 	}
 	
 	footer {
-		font-size: 3em;
+		font-size: 4em;
+	}
+
+	address {
+		padding-bottom: 1em;
 	}
 	
 	footer img {
@@ -544,7 +548,11 @@ address p {
 	}
 	
 	footer {
-		font-size: 3em;
+		font-size: 4em;
+	}
+
+	address {
+		padding-bottom: 1em;
 	}
 	
 	footer img {
@@ -636,7 +644,11 @@ address p {
 	}
 
 	footer {
-		font-size: 3em;
+		font-size: 4em;
+	}
+
+	address {
+		padding-bottom: 1em;
 	}
 
 	footer img {
