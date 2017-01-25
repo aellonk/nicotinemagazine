@@ -457,14 +457,14 @@ address p {
 	}
 	
 	footer {
-		font-size: 2em;
+		font-size: 3em;
 	}
 	
 	footer img {
-	 max-height: 80%;
-    	 max-width: 80%;
-    	 width: auto;
-    	 height: auto;
+		max-height: 3em;
+   		max-width: 3em;
+     	width: auto;
+     	height: auto;
 	}
 }	
 
@@ -544,14 +544,14 @@ address p {
 	}
 	
 	footer {
-		font-size: 2em;
+		font-size: 3em;
 	}
 	
 	footer img {
-	 max-height: 80%;
-    	 max-width: 80%;
-    	 width: auto;
-    	 height: auto;
+		max-height: 3em;
+   		max-width: 3em;
+     	width: auto;
+     	height: auto;
 	}
 }
 
@@ -636,13 +636,13 @@ address p {
 	}
 
 	footer {
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	footer img {
-	 max-height: 80%;
-    	 max-width: 80%;
-    	 width: auto;
-    	 height: auto;
+		max-height: 3em;
+   		max-width: 3em;
+     	width: auto;
+     	height: auto;
 	}
 }
