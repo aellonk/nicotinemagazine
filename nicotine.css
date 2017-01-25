@@ -333,9 +333,12 @@ address p {
         display: none;
     }
 
-    video::-webkit-media-controls-start-playback-button {
+    video::-webkit-media-controls {
   display: none !important;
 }
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
 
 }
 /* media queries for laptops*/
@@ -462,12 +465,12 @@ address p {
 	#center-vertical {
 		display: block;
 	}
-	
+
 	address {
 		padding-bottom: 1em;
 		font-size: 4em;
 	}
-	
+
 	footer img {
 		max-height: 3em;
    		max-width: 3em;
@@ -558,7 +561,7 @@ address p {
 	address {
 		padding-bottom: 1em;
 		font-size: 4em;
-	}	
+	}
 
 	footer img {
 		max-height: 3em;
@@ -656,6 +659,7 @@ address p {
 		padding-bottom: 1em;
 		font-size: 4em;
 	}
+
 
 	footer img {
 		max-height: 3em;
