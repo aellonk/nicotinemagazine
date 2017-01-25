@@ -16,6 +16,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	background-color: white;
+	width: 100%;
 }
 
 p {
@@ -184,7 +185,7 @@ h4 {
 }
 
 .parallax { 
-    background-image: url("fullwidthplaceholder.png");
+   background-image: url("fullwidthplaceholder.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -406,11 +407,17 @@ address p {
 		width: 80%;
 	}
 	.parallax { 
-    background-size: contain;
+    background-image: url("fullwidthplaceholder.png");
+    background-attachment: scroll;
+	background-position: top;
+	background-size: cover;
 	}
 
 	.parallax2 { 
-    display: none;
+    background-image: url("fullwidthplaceholder.png");
+    background-attachment: scroll;
+	background-position: top;
+	background-size: cover;
 }
 
 	.col-1-4 {
