@@ -285,6 +285,10 @@ ol {
 .break {
 	display: none;
 }
+
+address {
+	padding-bottom: 1.5em;
+}
 address a {
 	text-decoration: none;
 	color: inherit;
@@ -295,7 +299,9 @@ address a {
 address p {
 	font-size: 2em;
 }
-
+footer {
+	padding-bottom: .25em;
+}
 .social-media {
 	margin: 0 auto;
 }
@@ -339,7 +345,7 @@ address p {
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
   -webkit-appearance: none;
-
+}
 }
 /* media queries for laptops*/
 
@@ -465,15 +471,24 @@ address p {
 	#center-vertical {
 		display: block;
 	}
+	
+
 
 	address {
 		padding-bottom: 1em;
-		font-size: 4em;
+	}
+	
+	address a {
+	font-size: 1.5em;
+	}
+	
+	address p {
+	font-size: 3em;
 	}
 
 	footer img {
-		max-height: 3em;
-   		max-width: 3em;
+		max-height: 50px;
+   		max-width: 50px;
      	width: auto;
      	height: auto;
 	}
@@ -554,18 +569,22 @@ address p {
 		display: block;
 	}
 	
-	footer {
-		font-size: 4em;
-	}
-
+	
 	address {
 		padding-bottom: 1em;
-		font-size: 4em;
+	}
+	
+	address a {
+	font-size: 1.5em;
+	}
+	
+	address p {
+	font-size: 3em;
 	}
 
 	footer img {
-		max-height: 3em;
-   		max-width: 3em;
+		max-height: 50px;
+   		max-width: 50px;
      	width: auto;
      	height: auto;
 	}
@@ -651,19 +670,23 @@ address p {
 		display: block;
 	}
 
-	footer {
-		font-size: 4em;
-	}
+	
 
 	address {
 		padding-bottom: 1em;
-		font-size: 4em;
 	}
 
+	address a {
+	font-size: 1.5em;
+	}
+	
+	address p {
+	font-size: 3em;
+	}
 
 	footer img {
-		max-height: 3em;
-   		max-width: 3em;
+		max-height: 50px;
+   		max-width: 50px;
      	width: auto;
      	height: auto;
 	}
