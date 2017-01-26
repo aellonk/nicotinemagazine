@@ -30,10 +30,12 @@ header {
 	height: 18em;
 }
 
+div.section {
+	height: 100vh;
+}
  
  .cover {
- 	height: 33%;
- 	max-height: 34%;
+ 	height: 95%;
  	display: block;
  	margin-right: auto;
  	margin-left: auto;
