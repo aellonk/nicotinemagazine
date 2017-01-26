@@ -32,8 +32,8 @@ header {
 
  
  .cover {
- 	height: 95%;
- 	max-height: 95%;
+ 	height: 95vh;
+ 	max-height: 95vh;
  	display: block;
  	margin-right: auto;
  	margin-left: auto;
@@ -169,7 +169,6 @@ div a {
 h3 {
 	text-align: center;
 	padding-top: 2%;
-	font-weight: bold;
 	font-size: 2em;
 	margin-top: 1em;
 	margin-bottom: 0.25em;

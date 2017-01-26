@@ -5,3 +5,6 @@
 [submodule "portfoliojs"]
 	path = portfoliojs
 	url = https://github.com/aellonk/portfoliojs.git
+[submodule "lightbox2"]
+	path = lightbox2
+	url = https://github.com/aellonk/lightbox2.git
