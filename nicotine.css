@@ -2,12 +2,7 @@
     font-family: Minion Pro;
     src: local('Minion Pro Regular') 
     	local('Minion-Pro-Regular')
-    	url(fonts/minionproregular.ttf)
-    	format('truetype');
-
-    src: local('Minion Pro Regular') 
-    	local('Minion-Pro-Regular')
-    	url(fonts/minionproregular.otf)
+    	url(fonts/MinionPro-Regular.otf)
     	format('opentype');
 }
 
@@ -186,7 +181,7 @@ h4 {
 }
 
 .parallax { 
-   background-image: url("fullwidthplaceholder.png");
+   background-image: url("bigcover.jpeg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -195,7 +190,7 @@ h4 {
 }
 
 .parallax2 { 
-    background-image: url("fullwidthplaceholder.png");
+    background-image: url("bigcover.jpeg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -330,23 +325,7 @@ footer {
 	    transform: translate(-50%, -50%);
 }
 
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('white.gif') center center / cover no-repeat;
-    }
 
-    .fullscreen-bg__video {
-        display: none;
-    }
-
-    video::-webkit-media-controls {
-  display: none !important;
-}
-*::-webkit-media-controls-start-playback-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-}
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */
@@ -527,7 +506,7 @@ footer {
 	}
 
 	.parallax { 
-    background-image: url("fullwidthplaceholder.png");
+    background-image: url("bigcover.jpeg");
     background-attachment: scroll;
 	background-position: top;
 	}
