@@ -482,17 +482,14 @@ footer {
 		width: 80%;
 	}
 	.parallax { 
-    background-image: url("fullwidthplaceholder.png");
+    background-image: url("bigcover.jpeg");
     background-attachment: scroll;
 	background-position: top;
 	background-size: cover;
 	}
 
 	.parallax2 { 
-    background-image: url("fullwidthplaceholder.png");
-    background-attachment: scroll;
-	background-position: top;
-	background-size: cover;
+    display: none;
 }
 
 	.contents-adjust {
@@ -592,6 +589,10 @@ footer {
 	background-position: top;
 	}
 
+		.parallax2 { 
+    display: none;
+}
+
 	.contents-adjust {
 	float: none;
 	padding-right: 0;
@@ -684,10 +685,14 @@ footer {
 	}
 
 	.parallax { 
-    background-image: url("fullwidthplaceholder.png");
+    background-image: url("bigcover.jpeg");
     background-attachment: scroll;
 	background-position: top;
 	}
+	
+	.parallax2 { 
+    display: none;
+}
 
 .contents-adjust {
 	float: none;
