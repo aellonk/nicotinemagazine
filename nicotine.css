@@ -122,6 +122,17 @@ div.section {
 	text-align: justify;
 }
 
+.editor17 {
+	color: black;
+	font-size: .9em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+	margin-left: 4.5em;
+	margin-right: 4.5em;
+	padding-top: 4em;
+}
+
 .col-1-4 {
 	width: 25%;
 	float: left;
