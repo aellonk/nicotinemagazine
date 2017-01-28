@@ -72,7 +72,7 @@
 		<div class="col-1-4"></div>
 		<div class="col-1-4 col-1-2">
 		<ol class="contents-adjust">
-			<li><a href="#mark"><p>mark lim</p><p class="story">the fluttering march</p></a></li>
+			<li><a href="#mark2"><p>mark lim</p><p class="story">the fluttering march</p></a></li>
 			<li><a href="#david"><p>david schulze</p><p class="story">drive apart</p></a></li>
 			<li><a href="#jess"><p>jess farran</p><p class="story">sex</p></a></li>
 			<li><a href="#lizzy"><p>lizzy oppenheimer</p><p class="story">mount everest</p></a></li>
@@ -94,17 +94,17 @@
 
 
 
-<div class="scroller">
-		<p id="hint">Use arrow keys for optimal viewing<br>
-			<img src="leftarrowicon.png"><img src="rightarrowicon.png"></p>
-<div class="section" id="gallery">
-        <img data-src="issue17/fluttertemplate01.jpg" src="fluttertemplate01.jpeg" Alt="Responsive Image"/>
+<div class="scroller section">
+	<div id="hint"><img src="arrowkeys.png"><br><p>use arrow keys for beautiful viewing<br>PLEASURE<br></p>
+			</div>
+<div id="gallery">
+        <img data-src="issue17/fluttertemplate01.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/fluttertemplate02.jpg" Alt="Responsive Image" />
         <img data-src="issue17/fluttertemplate03.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/fluttertemplate04.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/fluttertemplate05.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/fluttertemplate06.jpg" Alt="Responsive Image"/>
-        <img data-src="issue17/chlorophyll01.jpg" Alt="Responsive Image"/>
+        <img id="mark" data-src="issue17/chlorophyll01.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/chlorophyll02.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/chlorophyll03.jpg" Alt="Responsive Image"/>
         <img data-src="issue17/chlorophyll04.jpg" Alt="Responsive Image"/>
@@ -116,6 +116,23 @@
 	
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- jquery smooth scroll to id's -->   
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+</script>
 <script type="text/javascript" src="nicotine.js" ></script>
 <script src="Scrollify/jquery.scrollify.js"></script> 
 <script>
@@ -132,5 +149,7 @@
             p.init();
     });
 </script>
+
+
 </body>
 </html>

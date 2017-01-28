@@ -180,13 +180,6 @@ div a {
 	text-decoration: none;
 }
 
-h3 {
-	text-align: center;
-	padding-top: 2%;
-	font-size: 2em;
-	margin-top: 1em;
-	margin-bottom: 0.25em;
-}
 
 h4 {
 	text-align: center;
@@ -223,29 +216,40 @@ ol {
 }
 
 .carton {
+ height: 100%;
  width: 80%;
  margin-right:auto;
  margin-left:auto;
  overflow: hidden;
- padding-top: 6.250em;
+ padding-top: 4.5em;
 }
+
+.carton h3 {
+	float: left;
+	display: inline-block;
+	transform: rotate(270deg);
+	-webkit-transform: value;
+  	-moz-transform: rotate(270deg);
+  	-ms-transform: rotate(270deg);
+ 	-o-transform: rotate(270deg);
+  	transform: rotate(270deg);
+  	margin:0;
+  	font-weight: normal;
+}
+
 
 .galleryItem {
  float: left;
- width: 16%;
+ width: 7%;
+ height: 80%;
 }
 
 .contributor{
-	margin:  2% 2% 15px 2%;
-}
-
-.galleryItem h3 {
- text-align: center;
- color: #000000;
- font-size: 1em;
+	margin:  2% 1% 15px 0;
 }
  
 .galleryItem img {
+	height: 85%;
  max-width: 100%;
  -webkit-border-radius: 1px;
  -moz-border-radius: 1px;
@@ -347,15 +351,17 @@ footer {
 #hint {
 	position: absolute;
 	width: 8em;
-	left: 39px;
-	bottom: -2978px;
-	top: 4306px;
-	text-align: center;
+	left: 2.6%;
+	top: 4050px;
 }
 
 #hint img {
-	height: 1.5em;
+	height: 4em;
 	padding-right: 0;
+}
+
+#hint p {
+	padding-left: .7em;
 }
 /* media queries for laptops*/
 
