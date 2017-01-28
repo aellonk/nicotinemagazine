@@ -394,6 +394,19 @@ footer {
     margin-top: 3em;
 }
 
+#warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { 
+        	position: absolute;
+        	top: 8695px;
+}
+
+        }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */
