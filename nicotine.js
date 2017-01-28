@@ -10,7 +10,7 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 1800); // Change image every 1.5 second
+    setTimeout(carousel, 1700); // Change image every 1.7 second
 }
 
  
@@ -35,7 +35,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('body, html').animate({scrollTop: pos});
 });
 
-setTimeout(fade_out, 5000);
+setTimeout(fade_out, 30000);
 
 function fade_out() {
   $("#hint").fadeOut().empty();
