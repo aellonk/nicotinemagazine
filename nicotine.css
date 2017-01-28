@@ -400,10 +400,10 @@ footer {
         #warning-message { 
         	position: absolute;
         	top: 8695px;
-}
+		}
 
         }
-    }
+        
     @media only screen and (orientation:landscape){
         #warning-message { display:none; }
     }
@@ -689,7 +689,7 @@ footer {
     background-attachment: scroll;
 	background-position: top;
 	}
-	
+
 	.parallax2 { 
     display: none;
 }
