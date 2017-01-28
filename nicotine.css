@@ -397,7 +397,10 @@ footer {
 #warning-message { display: none; }
     @media only screen and (orientation:portrait){
         #wrapper { display:none; }
-        #warning-message { 
+        #warning-message {
+        	position: relative;
+        }
+		#warning-message img { 
         	position: absolute;
         	height: 831px;
         	width: 642px;
