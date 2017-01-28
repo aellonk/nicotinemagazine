@@ -28,6 +28,7 @@ header {
 
 .logo {
 	height: 18em;
+	display: block;
 }
 
 div.section {
@@ -327,6 +328,19 @@ footer {
 }
 
 
+
+#hint {
+	position: absolute;
+	width: 8em;
+	left: 39px;
+	bottom: -2978px;
+	top: 4306px;
+	text-align: center;
+}
+
+#hint img {
+	height: 1.5em;
+}
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */

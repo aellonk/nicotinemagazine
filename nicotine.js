@@ -34,3 +34,9 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos});
 });
+
+setTimeout(fade_out, 5000);
+
+function fade_out() {
+  $("#hint").fadeOut().empty();
+}
