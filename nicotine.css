@@ -394,17 +394,21 @@ footer {
     margin-top: 3em;
 }
 
-#warning-message { display: none; }
-    @media only screen and (orientation:portrait){
+#warning-message {visibility: hidden; }
+
+
+ @media only screen and (orientation:portrait){
         #wrapper { display:none; }
         #warning-message {
         	position: relative;
+        	display: 
         }
 		#warning-message img { 
         	position: absolute;
         	height: 831px;
         	width: 642px;
         	top: -1046px;
+        	visibility: visible;
 		}
     }
 
