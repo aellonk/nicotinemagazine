@@ -399,6 +399,9 @@ footer {
         #wrapper { display:none; }
         #warning-message { 
         	position: absolute;
+        	height: 831px;
+        	width: 642px;
+        	top: -1046px;
 		}
     }
 
@@ -489,7 +492,8 @@ footer {
 	.parallax2 { 
     display: none;
 }
-
+	
+	
 	.contents-adjust {
 	float: none;
 	padding-right: 0;
