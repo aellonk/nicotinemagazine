@@ -399,11 +399,9 @@ footer {
         #wrapper { display:none; }
         #warning-message { 
         	position: absolute;
-        	top: 8695px;
 		}
+    }
 
-        }
-        
     @media only screen and (orientation:landscape){
         #warning-message { display:none; }
     }
