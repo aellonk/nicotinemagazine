@@ -275,6 +275,10 @@ ol {
 	padding-left: 13em;
 }
 
+.scroller img {
+	padding-right: 3em;
+}
+
 .underline {
 	text-decoration: underline;
 }
@@ -340,6 +344,7 @@ footer {
 
 #hint img {
 	height: 1.5em;
+	padding-right: 0;
 }
 /* media queries for laptops*/
 
