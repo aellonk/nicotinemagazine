@@ -30,7 +30,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
 });
 
-setTimeout(fade_out, 30000);
+setTimeout(fade_out, 120000);
 
 function fade_out() {
   $("#hint").fadeOut().empty();
