@@ -422,10 +422,7 @@ a:-webkit-any-link {
  height: 80%;
 }
 
-.galleryItem {
- float: left;
- width: 16%;
-}
+
 
 .contributor{
 	margin:  2% 1% 15px 0;
@@ -440,13 +437,20 @@ a:-webkit-any-link {
  float: right;
 }
 
+
+*/
+
 .galleryItem img {
  max-width: 100%;
  -webkit-border-radius: 1px;
  -moz-border-radius: 1px;
  border-radius: 1px;
 }
-*/
+
+.galleryItem {
+ float: left;
+ width: 16%;
+}
 .center {
 	text-align: center;
 }
