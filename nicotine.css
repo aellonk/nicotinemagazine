@@ -135,11 +135,11 @@ div.section {
 
 #column1 {
 	padding-left: 13em;
-	padding-right: 3em;
+	padding-right: 2em;
 }
 
 #column2 {
-	padding-left: 3em;
+	padding-left: 2em;
 	padding-right: 13em;
 }
 
@@ -282,13 +282,16 @@ ol {
 	margin-left: auto;
 	margin-right: auto;
 	height: 2em;
-	width: 2em;
+	width: 2%;
 	display: block;
 }
 
+.center-horizontal {
+	left: 49%;
+}
 .bottom-align {
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
 }
 
 .small-margin {
@@ -381,18 +384,7 @@ footer {
 #hint p {
 	padding-left: .7em;
 }
-.rectangle-container {
-	position: relative;
-	display: flex;
-}
-#rectangle {
-	position: absolute;
-	width:8px;
-    height:90vh;
-    background: #000000;
-    margin: 0 auto;
-    margin-top: 3em;
-}
+
 
 #warning-message {visibility: hidden; }
 
