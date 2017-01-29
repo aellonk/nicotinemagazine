@@ -234,6 +234,15 @@ ol {
 }
 
 .carton {
+ width: 80%;
+ margin-right:auto;
+ margin-left:auto;
+ overflow: hidden;
+ padding-top: 6.250em;
+}
+
+
+.contributors {
  height: 100%;
  width: 80%;
  margin-right:auto;
@@ -242,7 +251,7 @@ ol {
  padding-top: 4.5em;
 }
 
-.carton h3 {
+.contributors h3 {
 	float: left;
 	display: inline-block;
 	transform: rotate(270deg);
@@ -256,18 +265,30 @@ ol {
 }
 
 
-.galleryItem {
+.contributorsGalleryItem {
  float: left;
  width: 7%;
  height: 80%;
+}
+
+.galleryItem {
+ float: left;
+ width: 16%;
 }
 
 .contributor{
 	margin:  2% 1% 15px 0;
 }
  
-.galleryItem img {
+.contributorsGalleryItem img {
 	height: 85%;
+ max-width: 100%;
+ -webkit-border-radius: 1px;
+ -moz-border-radius: 1px;
+ border-radius: 1px;
+}
+
+.galleryItem img {
  max-width: 100%;
  -webkit-border-radius: 1px;
  -moz-border-radius: 1px;
@@ -324,7 +345,7 @@ ol {
 }
 
 address {
-	padding-bottom: 1.5em;
+	padding-bottom: 1em;
 }
 address a {
 	text-decoration: none;
