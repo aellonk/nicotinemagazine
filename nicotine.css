@@ -103,7 +103,7 @@ div.section {
 
 .contents-adjust {
 	float: right;
-	padding-right: 3em;
+	padding-right: 2em;
 }
 
 .masthead {
@@ -229,6 +229,11 @@ h4 {
 ol {
 	list-style-type: none;
 	margin: 0 auto;
+	padding-left: 3em;
+}
+
+ol.contentscolumn2{
+	padding-left: 4em;
 }
 
 #center-vertical {
@@ -459,9 +464,10 @@ a:-webkit-any-link {
 	margin-left: auto;
 	margin-right: auto;
 	height: 2em;
-	width: 2%;
+	width: auto;
 	display: block;
 }
+
 
 .center-horizontal {
 	left: 49%;
@@ -645,6 +651,7 @@ footer {
 	height: 6em;
 	width: 6em;
 	}
+
 
 	.masthead {
 		font-size: 3em;
@@ -934,4 +941,172 @@ footer {
      	width: auto;
      	height: auto;
 	}
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	.logo {
+		height: 25em;
+	}
+
+	ul {
+		padding-left: 2.3em;
+		font-size: 2em;
+	}
+
+	.cover {
+	height: 86vh;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 4em;
+	}
+
+	.down-arrow {
+	height: 8em;
+	width: 8em;
+	}
+
+	.contentsarrow {
+	top: 835px;
+}
+
+
+	.center-horizontal {
+		left: 43%;
+	}
+	.masthead {
+		font-size: 3em;
+		width: 100%;
+	}
+	
+	.break {
+		display: block;
+	}
+
+	.editor {
+		font-size: 2.3em;
+		width: 80%;
+	}
+
+	.parallax { 
+    background-image: url("bigcover.jpeg");
+    background-attachment: scroll;
+	background-position: top;
+	}
+
+	.parallax2 { 
+    display: none;
+}
+
+.contents-adjust {
+	float: none;
+	padding-right: 0;
+	}
+
+	.scroller {
+	padding-left: 0;
+}	
+
+	.col-1-4 {
+		font-size: 2.25em;
+	}
+	.col-1-2 {
+		width: 50%;
+	}
+
+	.editorcol-1-2 {
+		font-size: 1.08em;
+	}
+
+	#column1 {
+		padding-left: 6em;
+	}
+
+	#column2 {
+		padding-right: 6em;
+	}
+
+	.nav-left {
+	width: 40%;
+	}
+
+	h3 {
+		font-size: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	.col-1-4 {
+		float: none;
+		padding-bottom: 0;
+	}
+
+	.col-1-3 {
+		width: 100%;
+	}
+
+	#center-vertical {
+		display: block;
+	}
+
+	address {
+		padding-bottom: 1em;
+	}
+
+	address a {
+	font-size: 1.5em;
+	}
+	
+	address p {
+	font-size: 3em;
+	}
+
+	footer img {
+		max-height: 50px;
+   		max-width: 50px;
+     	width: auto;
+     	height: auto;
+	}
+}
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
