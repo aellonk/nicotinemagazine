@@ -37,18 +37,5 @@ function fade_out() {
 }
 
 //------------------
-function myFunction() {
-    var x = document.createElement("VIDEO");
 
-    if (x.canPlayType("video/mp4")) {
-        x.setAttribute("src","issue17/nicotine17_page41.mov");
-    } else {
-        alert("Your browser does not support this video tag.");
-    }
 
-    x.setAttribute("width", "320");
-    x.setAttribute("height", "240");
-    x.setAttribute("controls", "autoplay");
-    x.setAttribute("controls", "loop");
-    document.body.appendChild(x);
-}
