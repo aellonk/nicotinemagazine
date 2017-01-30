@@ -8,3 +8,6 @@
 [submodule "lightbox2"]
 	path = lightbox2
 	url = https://github.com/aellonk/lightbox2.git
+[submodule "FlexSlider"]
+	path = FlexSlider
+	url = https://github.com/aellonk/FlexSlider.git
