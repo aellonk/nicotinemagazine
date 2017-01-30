@@ -360,6 +360,7 @@ $(function() {
   });
 </script>
 <script src="FlexSlider/jquery.flexslider.js"></script>
+<!-- flexslider href link to #id -->
 <script type="text/javascript" charset="utf-8">
 jQuery(document).ready(function($) {
 
@@ -384,6 +385,7 @@ jQuery(document).ready(function($) {
 
 });
 </script>
+
 <script>
 $('.flexslider').flexslider({
     animation: "slide",
@@ -396,7 +398,7 @@ $('.flexslider').flexslider({
      },
     before: function (slider) {
         // lazy load
-       var slide = $(slider).find('.slides').children().eq(slider.animatingTo+1).find('img');
+       var slide = $(slider).find('.slides').children().eq(slider.animatingTo+2).find('img');
        var src = slide.attr("data-src");
        slide.attr("src", src).removeAttr("data-src").removeClass("lazy");
     }
