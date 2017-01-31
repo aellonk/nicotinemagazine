@@ -587,9 +587,8 @@ footer {
 		display: block;
 	}
 
-	.editor {
-		font-size: 2em;
-		width: 80%;
+	.editorcol-1-2 {
+		font-size: .8em;
 	}
 	.parallax { 
     background-image: url("bigcover.jpeg");
