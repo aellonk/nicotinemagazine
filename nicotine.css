@@ -253,18 +253,7 @@ ol.contentscolumn2{
 a:-webkit-any-link {
 	color: #000000;
 }
-/* --- flex for contributors --- */
 
-#container {
- overflow:auto;
-  margin: 0 auto;
-  width: 100%;
-  height: 70%;
-  padding: 0 1rem;
-  text-align: center	
-
-
-}
 
 /* gio contributors
 
@@ -297,18 +286,22 @@ a:-webkit-any-link {
 /* --- flex for contributors --- */
 #container {
     display: -webkit-inline-box;
-    height: 75%;
+    height: 100%;
     justify-content: center;
     position: fixed;
     width: auto;
+    margin-top: 4%
 }
 .textwrapper {
-    margin-top: 260px;
+    margin-top: 26%;
     width: 1.5em;  
     line-height: 2.5;
     font-size: 1.25em;  
   
 }
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { _:-webkit-full-screen, .textwrapper { margin-top:28%; } } }
+
 .rotatetext {
     display: inline-block;
     transform: translate(0px, 14.5em) rotate(-90deg);
@@ -334,8 +327,8 @@ a:-webkit-any-link {
 .flex-item1 {
   padding: 5px;
   width: auto;
-  height: 100%;
-  margin-top: 10px;
+  height: 75%;
+  margin-top: 40%;
 }
 
 .galleryItem img {
