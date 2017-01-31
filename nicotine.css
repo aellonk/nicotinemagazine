@@ -647,12 +647,23 @@ footer {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
-	
+	.logo {
+		height: 27em;
+	}
+
+	.nav-top {
+		padding-top: .7em;
+	}
+
+	ul {
+		font-size: 1.4em;
+		padding-left: 3.75em;
+	}
 	.cover {
-	height: 80vh;
-	width: 90vw;
+	height: 1094px;
+	width: 819px;
 	margin: 0 auto;
-	padding-top: 2em;
+	padding-top: 70px;
 	}
 
 	.down-arrow {
@@ -660,9 +671,16 @@ footer {
 	width: 6em;
 	}
 
+	.contentsarrow {
+		top: 1075px;
+	}
+
+	.center-horizontal {
+		left: 44%;
+	}
 
 	.masthead {
-		font-size: 3em;
+		font-size: 2.5em;
 		width: 100%;
 	}
 
@@ -752,6 +770,16 @@ footer {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+	.logo {
+		height: 27em;
+	}
+.nav-top {
+		padding-top: .7em;
+	}
+	ul {
+		font-size: 1.4em;
+	}
+
 	.cover {
 	height: 95vh;
 	width: 90vw;
@@ -764,8 +792,12 @@ footer {
 	width: 7em;
 	}
 
+	.contentsarrow {
+		top: 1050px;
+	}
+
 	.masthead {
-		font-size: 3em;
+		font-size: 2.5em;
 		width: 100%;
 	}
 
@@ -857,11 +889,21 @@ footer {
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+	
+.logo {
+		height: 27em;
+	}
 	.cover {
 	height: 90vh;
 	width: 90vw;
 	margin: 0 auto;
 	padding-top: 2em;
+	}
+	.nav-top {
+		padding-top: .7em;
+	}
+	ul {
+		font-size: 1.4em;
 	}
 
 	.down-arrow {
@@ -870,7 +912,7 @@ footer {
 	}
 
 	.masthead {
-		font-size: 3em;
+		font-size: 2.5em;
 		width: 100%;
 	}
 	
@@ -983,7 +1025,7 @@ footer {
 	}
 
 	.contentsarrow {
-	top: 835px;
+	top: 800px;
 }
 
 
@@ -1124,7 +1166,7 @@ footer {
   width: 6em;
   height: 100%;
   margin-top: 10px;
-   order: 1;
+   order: 2;
    flex-grow: 1;
   margin-right: 1em;
 
@@ -1168,6 +1210,7 @@ footer {
   order: 1;
   flex-grow: 1;
     margin-right: 1em;
+    float: right;
 }
 
 .flex-item6 {
@@ -1178,6 +1221,7 @@ footer {
   order: 1;
   flex-grow: 1;
     margin-right: 1em;
+        float: right;
 }
 
 .flex-item7 {
@@ -1188,6 +1232,7 @@ footer {
   order: 1;
   flex-grow: 1;
     margin-right: 1em;
+        float: right;
 }
 
 .flex-item8 {
@@ -1197,6 +1242,7 @@ footer {
   margin-top: 10px;
   order: 1;
   flex-grow: 1;
+      float: right;
 }
 
 

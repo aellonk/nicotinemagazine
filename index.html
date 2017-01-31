@@ -23,7 +23,7 @@
     <div class="section">
         <a href="#masthead"><img class="cover Slideshow" src="frontcover01.jpg" Alt="Responsive Image"/>
         <img class="cover Slideshow" src="frontcover02.jpg" Alt="Responsive Image"/></a>
-        <a href="#masthead"><img class="down-arrow" src="downarrowicon.png" alt="down arrow to scroll"/></a>
+        <a href="#masthead"><img class="down-arrow bottom-align center-horizontal" src="downarrowicon.png" alt="down arrow to scroll"/></a>
     </div>
 
 <div id="masthead" class="section parent-container">
@@ -108,7 +108,7 @@
 
 
 
-<div class="scroller section">
+<div id="scroller" class="scroller section">
         <div id="hint"><img src="arrowkeys.png"><br><p>use arrow keys for beautiful viewing<br>PLEASURE<br></p>
             </div>
     <div id="wrapper">
@@ -365,6 +365,13 @@ $(function() {
             });
         });
 </script>
+<script type="text/javascript">$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+$.preloadImages("issue17/nicotine17_page40.jpg","issue17/nicotine17_page42.jpg", "issue17/nicotine17_page64.jpg");</script>
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
     $('.flexslider').flexslider();
@@ -397,23 +404,6 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-<script>
-$('.flexslider').flexslider({
-    animation: "slide",
-    start: function (slider) {
-       // lazy load
-       $(slider).find("img.lazy").slice(0,5).each(function () {
-       var src = $(this).attr("data-src");
-          $(this).attr("src", src).removeAttr("data-src").removeClass("lazy");
-       });
-     },
-    before: function (slider) {
-        // lazy load
-       var slide = $(slider).find('.slides').children().eq(slider.animatingTo+2).find('img');
-       var src = slide.attr("data-src");
-       slide.attr("src", src).removeAttr("data-src").removeClass("lazy");
-    }
- });
-</script>
+
 </body>
 </html>

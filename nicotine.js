@@ -35,7 +35,3 @@ setTimeout(fade_out, 120000);
 function fade_out() {
   $("#hint").fadeOut().empty();
 }
-
-//------------------
-
-
