@@ -261,7 +261,7 @@ a:-webkit-any-link {
     position: fixed;
 }
 .inside {
-    height: 14.25em;
+    height: 415px;
     margin-top: 0;
     width: 1.5em;  
     line-height: 2.5;
@@ -270,12 +270,13 @@ a:-webkit-any-link {
 }
 .wrapper {
     display: inline-block;
-    transform: translate(0px, 14.5em) rotate(-90deg);
+    transform: translate(0px, 20.5em) rotate(-90deg);
     transform-origin: 0 0 0;
-    -webkit-transform: translate(0px, 14.5em) rotate(-90deg);
+    -webkit-transform: translate(0px, 20.5em) rotate(-90deg);
     -webkit-transform-origin: 0 0 0;
-  
 }
+
+_:-webkit-full-screen:not(:root:root), .wrapper { -webkit-transform: translate(0px, 14.5em) rotate(-90deg); }
 
 .wrapper p {
 	white-space: nowrap;
@@ -1101,18 +1102,112 @@ footer {
 	.flex-container {
 		width: 7%;
 	}
-}
+
+	_:-webkit-full-screen:not(:root:root), .class { -webkit-transform: translate(0px, 14.5em) rotate(-90deg); }
 
 }
+
+
 
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	#container {
+		height: auto;
+	}
 
+	.flex-container {
+		width: 6%;
+	}
+
+	.flex-item1 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+   order: 1;
+   flex-grow: 1;
+  margin-right: 1em;
+
+}
+
+.flex-item2 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+    order: 2;
+   flex-grow: 1;
+  margin-right: 1em;
+}
+
+.flex-item3 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 2;
+  flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flex-item4 {
+  padding: 5px;
+    width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 2;
+  flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flex-item5 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 1;
+  flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flex-item6 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 1;
+  flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flex-item7 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 1;
+  flex-grow: 1;
+    margin-right: 1em;
+}
+
+.flex-item8 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+  order: 1;
+  flex-grow: 1;
+}
+
+
+	
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-
+	.flex-container {
+		width: 7%;
+	}
 }
 
 /* ----------- iPad 3 and 4 ----------- */
