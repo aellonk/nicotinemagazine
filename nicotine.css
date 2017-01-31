@@ -456,7 +456,7 @@ footer {
 
 #warning-message {visibility: hidden; }
 
-
+/*
  @media only screen and (orientation:portrait){
         #wrapper { display:none; }
         #warning-message {
@@ -473,6 +473,8 @@ footer {
 
     @media only screen and (orientation:landscape){
         #warning-message { display:none; }
+
+        */
     }
 /* media queries for laptops*/
 
