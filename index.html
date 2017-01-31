@@ -365,13 +365,7 @@ $(function() {
             });
         });
 </script>
-<script type="text/javascript">$.preloadImages = function() {
-  for (var i = 0; i < arguments.length; i++) {
-    $("<img />").attr("src", arguments[i]);
-  }
-}
 
-$.preloadImages("issue17/nicotine17_page40.jpg","issue17/nicotine17_page42.jpg", "issue17/nicotine17_page64.jpg");</script>
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
     $('.flexslider').flexslider();
@@ -404,6 +398,24 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-
+<!--LAZY LOAD-->
+<script type="text/javascript">
+$('.flexslider').flexslider({
+  animation: "slide",
+  start: function(slider) {
+    // lazy load
+    $(slider).find("img.lazy").slice(0, 10).each(function() {
+      var src = $(this).attr("data-src");
+      $(this).attr("src", src).removeAttr("data-src").removeClass("lazy");
+    });
+  },
+  before: function(slider) {
+    // lazy load
+    var slide = $(slider).find('.slides').children().eq(slider.animatingTo + 1).find('img');
+    var src = slide.attr("data-src");
+    slide.attr("src", src).removeAttr("data-src").removeClass("lazy");
+  }
+});
+</script>
 </body>
 </html>
