@@ -965,8 +965,8 @@ footer {
 	}
 
 	ul {
-		padding-left: 2.3em;
-		font-size: 2em;
+		padding-left: 3em;
+		font-size: 1.5em;
 	}
 
 	.cover {
@@ -990,7 +990,7 @@ footer {
 		left: 43%;
 	}
 	.masthead {
-		font-size: 3em;
+		font-size: 2em;
 		width: 100%;
 	}
 	
@@ -1030,7 +1030,7 @@ footer {
 	}
 
 	.editorcol-1-2 {
-		font-size: 1.08em;
+		font-size: 1.05em;
 	}
 
 	#column1 {
@@ -1044,6 +1044,15 @@ footer {
 	.nav-left {
 	width: 40%;
 	}
+
+	ol {
+		padding-left: 1.6em;
+	}
+
+	ol.contentscolumn2{
+	padding-left: 1.6em;
+}
+
 
 	h3 {
 		font-size: 5em;
@@ -1069,13 +1078,13 @@ footer {
 	#hint {
 		visibility: hidden;
 	}
-	
+
 	address {
 		padding-bottom: 1em;
 	}
 
 	address a {
-	font-size: 1.5em;
+	font-size: 1em;
 	}
 	
 	address p {
@@ -1087,6 +1096,10 @@ footer {
    		max-width: 50px;
      	width: auto;
      	height: auto;
+	}
+
+	.flex-container {
+		width: 7%;
 	}
 }
 
