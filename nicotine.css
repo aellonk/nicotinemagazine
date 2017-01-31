@@ -567,7 +567,7 @@ footer {
 	}
 
 	.contentsarrow {
-		top: 1075px;
+		top: 1000px;
 	}
 
 	.center-horizontal {
@@ -829,6 +829,10 @@ footer {
 	.down-arrow {
 	height: 8em;
 	width: 8em;
+	}
+
+	.contentsarrow {
+		top: 1050px;
 	}
 
 	.masthead {
