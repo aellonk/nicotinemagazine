@@ -468,14 +468,13 @@ div.flexslider img {
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: white;
 }
 
-div.flexslider iframe {
-	max-height: 100vh;
-	max-width: 100%;
-
+.slides li iframe {
+	height: 100vh;
+	width: 100vw;
 }
-
 
 	#mobilearrow{
 		display: none;
