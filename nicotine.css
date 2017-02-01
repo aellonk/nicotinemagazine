@@ -682,18 +682,16 @@ div.flexslider img {
 	}
 	
 	address a {
-	font-size: 1.5em;
+	font-size: 30px;
 	}
 	
 	address p {
-	font-size: 3em;
+	font-size: 75px;
 	}
 
 	footer img {
-		max-height: 50px;
-   		max-width: 50px;
-     	width: auto;
-     	height: auto;
+     	width: 50px;
+     	height: 50px;
 	}
 
 	
@@ -855,19 +853,18 @@ div.flexslider img {
 	}
 	
 	address a {
-	font-size: 1.5em;
+	font-size: 30px;
 	}
 	
 	address p {
-	font-size: 3em;
+	font-size: 75px;
 	}
 
 	footer img {
-		max-height: 50px;
-   		max-width: 50px;
-     	width: auto;
-     	height: auto;
+     	width: 50px;
+     	height: 50px;
 	}
+
 
 
 
@@ -994,20 +991,19 @@ div.flexslider img {
 		padding-bottom: 1em;
 	}
 
-	address a {
-	font-size: 1.5em;
+		address a {
+	font-size: 30px;
 	}
 	
 	address p {
-	font-size: 3em;
+	font-size: 75px;
 	}
 
 	footer img {
-		max-height: 50px;
-   		max-width: 50px;
-     	width: auto;
-     	height: auto;
+     	width: 50px;
+     	height: 50px;
 	}
+
 	
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
