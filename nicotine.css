@@ -385,7 +385,7 @@ a:-webkit-any-link {
 }
 
 .scroller {
-	padding-left: 13em;
+	padding-left: 10em;
 }
 
 
@@ -498,8 +498,9 @@ div.flexslider img {
     @media only screen and (orientation:landscape){
         #warning-message { display:none; }
 
-        */
-    }
+    }    */
+    
+ /* ----------------------------media queries -----------------------------*/
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */
@@ -536,7 +537,16 @@ div.flexslider img {
 }
 }
 
-/* media queries */
+/* ---------- X-Large Screens ---------- */
+
+@media screen and (min-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 1) { 
+	
+
+
+
+}
+
+/* ----------carton media queries --------*/
 @media only screen and (max-width : 940px), only screen and (max-device-width : 940px){
 	.galleryItem {width: 21%;}
 }
