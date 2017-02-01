@@ -470,6 +470,18 @@ div.flexslider img {
 	margin-right: auto;
 }
 
+div.flexslider iframe {
+	max-height: 100vh;
+	max-width: 100%;
+
+}
+
+
+	#mobilearrow{
+		display: none;
+		visibility: hidden;
+	}
+
 /*
  @media only screen and (orientation:portrait){
         #wrapper { display:none; }
@@ -501,9 +513,12 @@ div.flexslider img {
      	width: auto;
      	height: auto;
 	}
-	#mobilearrow {
-	display: none;
-}
+	
+	#mobilearrow{
+		display: none;
+		visibility: hidden;
+	}
+
 }
 
 /* ----------- Retina Screens ----------- */
@@ -519,6 +534,7 @@ div.flexslider img {
 
 	#mobilearrow {
 	display: none;
+	visibility: hidden;
 }
 }
 
@@ -603,7 +619,7 @@ div.flexslider img {
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
-	background-position: top;
+	background-position: center;
 	background-size: cover;
 	}
 
@@ -778,7 +794,7 @@ div.flexslider img {
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
-	background-position: top;
+	background-position: center;
 	}
 
 		.parallax2 { 
@@ -914,7 +930,7 @@ div.flexslider img {
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
-	background-position: top;
+	background-position: center;
 	}
 
 	.parallax2 { 
@@ -1056,7 +1072,7 @@ div.flexslider img {
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
-	background-position: top;
+	background-position: center;
 	}
 
 	.parallax2 { 
