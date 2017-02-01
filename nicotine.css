@@ -291,7 +291,7 @@ a:-webkit-any-link {
     justify-content: center;
     position: relative;
     width: auto;
-    margin-top: 4%;
+
 }
 .textwrapper {
     margin-top: 53%;
@@ -302,9 +302,13 @@ a:-webkit-any-link {
 }
 
 #contribcolumn1 {
+	    margin-top: 4%;
 	margin-left: 10%;
 }
 
+#contribcolumn2 {
+	    margin-top: 4%;
+}
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { _:-webkit-full-screen, .textwrapper { margin-top:28%; } } }
 
@@ -663,25 +667,34 @@ footer {
      	height: auto;
 	}
 
+	
+	#contribcolumn2 {
+		margin-top: 0%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	#contribcolumn1 {
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 4%;
+	}
+
 	.contribcontainer {
 		display: inline-flex;
 		height: 50%;
 		position: relative;
 	}
 
-	#contribcolumn2 {
-		margin-top: 0;
-	}
-
-	#contribcolumn1 {
-	margin-left: 0;
-}
 	.textwrapper {
-		margin-top: 63%;
+		margin-top: 53%;
+		font-size: 1.5em;
 	}
 
-	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:20%; font-size: .75em; } {#contribcontainer {margin-left: 10%;}} }
-	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:20%; font-size: .75em; }
+
+
+	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:30%; font-size: 1.5em; } {#contribcontainer {margin-left: 10%;}} }
+	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:20%; font-size: .75em; 
 
 
 }	
@@ -1222,6 +1235,19 @@ footer {
 	.flex-container {
 		width: 7%;
 	}
+
+	.textwrapper {
+    margin-top: 56%;
+ }
+
+#contribcolumn1 {
+	margin-left: 0;
+}
+
+.contribcontainer {
+	margin-right: 20%;
+	margin-left: 20%;
+}
 }
 
 /* ----------- iPad 3 and 4 ----------- */
