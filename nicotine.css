@@ -767,6 +767,7 @@ footer {
 
 	.scroller {
 	padding-left: 0;
+	overflow: hidden;
 }
 
 	.col-1-4 {
