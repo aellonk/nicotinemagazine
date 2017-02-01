@@ -358,7 +358,7 @@ a:-webkit-any-link {
 }
 
 .scroller {
-	padding-left: 5em;
+	padding-left: 10em;
 }
 
 
@@ -441,7 +441,9 @@ footer.social-media img {
 /* ---- custom flexslider ----- */
 div.flexslider img {
 	max-height: 100vh;
+	max-width: 90%;
 	background-color: white;
+	float: right;
 }
 
 .slides li iframe {
@@ -1210,7 +1212,7 @@ div.flexslider img {
      	width: auto;
      	height: auto;
 	}
-	
+
 .flexslider {
 	margin: 20px 0 0 20px;
 }
