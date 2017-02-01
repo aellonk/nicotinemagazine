@@ -691,9 +691,12 @@ footer {
 		font-size: 1.5em;
 	}
 
+	.flex-container {
+		height: 50vh;
+	}
 
 
-	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:30%; font-size: 1.5em; } #contribcontainer {margin-left: 10%;}} }
+	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:53%; font-size: 1.5em; } #contribcontainer {margin-left: 10%;}} }
 	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:20%; font-size: .75em;} 
 
 
