@@ -548,16 +548,16 @@ div.flexslider img {
 	
 
 	.logo {
-		height: 30em;
+		height: 27em;
 		transform: rotate(90deg);
-		margin-left: 196px;
-		margin-top: -196px;
+		margin-left: 170px;
+		margin-top: -170px;
 
 	}
 
 	.nav-top {
-		padding-top: 36px;
-		margin-left: 477px;
+		padding-top: 40px;
+		margin-left: 440px;
 	}
 
 	ul {
@@ -702,33 +702,33 @@ div.flexslider img {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+	
 	.logo {
-		height: 27em;
+		height: 30em;
 		transform: rotate(90deg);
-		margin-left: 247px;
-		margin-top: -175px;
+		margin-left: 196px;
+		margin-top: -196px;
 
 	}
 
 	.nav-top {
-		padding-top: 39px;
-		margin-left: 424px;
+		padding-top: 36px;
+		margin-left: 477px;
 	}
 
 	ul {
-		font-size: 1.4em;
-		padding-left: 3.75em;
+		font-size: 2em;
+		padding-left: 0;
 	}
 
 	ul li a {
 		padding-right: 1.25em;
 	}
-
 	.cover {
-	height: 1094px;
+	height: 1150px;
 	width: 819px;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 126px;
 	}
 
 	.down-arrow {
@@ -844,27 +844,33 @@ div.flexslider img {
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
-	
-.logo {
-		height: 27em;
+
+	.logo {
+		height: 30em;
 		transform: rotate(90deg);
-		margin-left: 247px;
-		margin-top: -175px;
+		margin-left: 196px;
+		margin-top: -196px;
 
 	}
 
 	.nav-top {
-		padding-top: 39px;
-		margin-left: 424px;
+		padding-top: 36px;
+		margin-left: 477px;
 	}
 
 	ul {
-		font-size: 1.4em;
-		padding-left: 3.75em;
+		font-size: 2em;
+		padding-left: 0;
 	}
 
 	ul li a {
 		padding-right: 1.25em;
+	}
+	.cover {
+	height: 1150px;
+	width: 819px;
+	margin: 0 auto;
+	padding-top: 126px;
 	}
 	.down-arrow {
 	height: 8em;
@@ -977,22 +983,23 @@ div.flexslider img {
 /* ----------- iPad 1 and 2 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	
 	.logo {
-		height: 25em;
+		height: 30em;
 		transform: rotate(90deg);
-		margin-left: 224px;
-		margin-top: -170px;
+		margin-left: 196px;
+		margin-top: -196px;
 
 	}
 
 	.nav-top {
-		padding-top: 28px;
-		margin-left: 400px;
+		padding-top: 36px;
+		margin-left: 477px;
 	}
 
 	ul {
-		font-size: 1.4em;
-		padding-left: 3.75em;
+		font-size: 2em;
+		padding-left: 0;
 	}
 
 	ul li a {
@@ -1001,10 +1008,10 @@ div.flexslider img {
 
 
 	.cover {
-	height: 86vh;
+	height: 92vh;
 	width: auto;
 	margin: 0 auto;
-	padding-top: 4em;
+	padding-top: 7em;
 	}
 
 	.down-arrow {
