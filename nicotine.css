@@ -693,11 +693,15 @@ footer {
 
 
 
-	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:30%; font-size: 1.5em; } {#contribcontainer {margin-left: 10%;}} }
-	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:20%; font-size: .75em; 
+	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:30%; font-size: 1.5em; } #contribcontainer {margin-left: 10%;}} }
+	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:20%; font-size: .75em;} 
 
 
-}	
+	*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
+}
 
 
 
@@ -832,6 +836,15 @@ footer {
      	width: auto;
      	height: auto;
 	}
+
+
+
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
+
 }
 
 
@@ -964,6 +977,11 @@ footer {
      	height: auto;
 	}
 	
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
+
 
 }
 
@@ -1127,6 +1145,11 @@ footer {
 	}
 
 	_:-webkit-full-screen:not(:root:root), .class { -webkit-transform: translate(0px, 14.5em) rotate(-90deg); }
+
+	*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
 
 }
 
