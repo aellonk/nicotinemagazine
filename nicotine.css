@@ -467,7 +467,6 @@ div.flexslider img {
 	max-height: 100vh;
 }
 
-
 /*
  @media only screen and (orientation:portrait){
         #wrapper { display:none; }
@@ -690,18 +689,18 @@ div.flexslider img {
 	}
 
 	.textwrapper {
-		margin-top: 53%;
+		margin-top: 37%;
 		font-size: 2em;
 	}
 
 	.flex-container {
 		height: 50vh;
 	}
+/*
+	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:37%; font-size: 2em; } #contribcontainer {margin-left: 10%;}} }
+	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:37%; font-size: 2em;} 
 
-
-	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:53%; font-size: 2em; } #contribcontainer {margin-left: 10%;}} }
-	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:53%; font-size: 2em;} 
-
+*/
 
 	*::-webkit-media-controls-start-playback-button {
   display: none!important;
