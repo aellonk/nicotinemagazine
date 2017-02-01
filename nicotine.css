@@ -659,8 +659,8 @@ div.flexslider img {
 		display: block;
 	}
 	
-	#hint {
-		visibility: hidden;
+	#mobilearrow {
+		visibility: visible;
 	}
 
 	address {
@@ -827,8 +827,8 @@ div.flexslider img {
 		display: block;
 	}
 	
-	#hint {
-		visibility: hidden;
+	#mobilearrow {
+		visibility: visible;
 	}
 	
 	address {
@@ -993,8 +993,8 @@ div.flexslider img {
 		display: block;
 	}
 
-	#hint {
-		visibility: hidden;
+	#mobilearrow {
+		visibility: visible;
 	}
 
 	address {
