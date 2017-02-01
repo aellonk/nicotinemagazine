@@ -668,18 +668,22 @@ footer {
 	}
 
 	
-	#contribcolumn2 {
-		margin-top: 0%;
-		margin-left: 20%;
-		margin-right: 20%;
-	}
+	
 
 	#contribcolumn1 {
 		margin-left: 20%;
 		margin-right: 20%;
 		margin-top: 4%;
+		position: absolute;
 	}
 
+
+#contribcolumn2 {
+		margin-top: 0%;
+		margin-left: 20%;
+		margin-right: 20%;
+		position: relative;
+	}
 	.contribcontainer {
 		display: inline-flex;
 		height: 50%;
