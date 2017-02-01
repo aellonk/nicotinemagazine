@@ -463,6 +463,9 @@ footer {
 
 #warning-message {visibility: hidden; }
 
+div.flexslider img {
+	max-height: 100vh;
+}
 
 
 /*
