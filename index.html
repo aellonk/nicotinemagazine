@@ -2,9 +2,8 @@
 <html>
 <head>
     <title>NICOTINE</title>
-        <link rel="stylesheet" type="text/css" href="nicotine.css">
         <link rel="stylesheet" href="FlexSlider/flexslider.css" type="text/css">
-
+    <link rel="stylesheet" type="text/css" href="nicotine.css">
     <meta name="description" content="nicotine is a fashion and art magazine" />
 </head>
 <body>
@@ -412,7 +411,17 @@ $(window).load(function() {
 });
 </script>
 
+ <script src="jquery.imageorder.js"></script>
+        
+        <script>
+      $(document).ready(function() {
+        $(document).imageOrder(".img-postload");
+      });
+        </script>
+
+
 <script src="FlexSlider/jquery.flexslider.js"></script>
+
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
     $('.flexslider').flexslider();
