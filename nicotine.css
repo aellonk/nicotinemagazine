@@ -598,8 +598,23 @@ div.flexslider img {
 	}
 
 	.editorcol-1-2 {
-		font-size: .8em;
+		font-size: 1.4em;
+		width: auto;
+		padding-top: 5em;
 	}
+
+	#column1 {
+		padding-left: 2em;
+		padding-right: 1em;
+		display: inline;
+	}
+
+	#column2 {
+		padding-left: 1em;
+		padding-right: 2em;
+		display: inline;
+	}
+
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
