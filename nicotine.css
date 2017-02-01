@@ -385,7 +385,7 @@ a:-webkit-any-link {
 }
 
 .scroller {
-	padding-left: 10em;
+	padding-left: 5em;
 }
 
 
@@ -465,7 +465,7 @@ footer {
 
 div.flexslider img {
 	max-height: 100vh;
-	max-width: 90%;
+	max-width: 84%;
 	float: right;
 	background-color: white;
 }
