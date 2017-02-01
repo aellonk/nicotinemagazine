@@ -438,7 +438,7 @@ footer.social-media img {
 
 
 #warning-message {visibility: hidden; }
-
+/* ---- custom flexslider ----- */
 div.flexslider img {
 	max-height: 100vh;
 	background-color: white;
@@ -448,6 +448,9 @@ div.flexslider img {
 	height: 89vh;
 	width: 89vw;
 }
+
+
+/* ------ */
 
 	#mobilearrow{
 		display: none;
@@ -598,14 +601,14 @@ div.flexslider img {
 	}
 
 	#column1 {
-		padding-left: 1em;
+		padding-left: 2.25em;
 		padding-right: 1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 1em;
+		padding-left: 2.25em;
 		padding-right: 1em;
 		display: inline;
 	}
@@ -693,6 +696,11 @@ div.flexslider img {
 		position: relative;
 	}
 
+
+.flexslider {
+	margin: 20px 0 0 20px;
+}
+
 /*
 	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:37%; font-size: 2em; } #contribcontainer {margin-left: 10%;}} }
 	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:37%; font-size: 2em;} 
@@ -768,18 +776,20 @@ div.flexslider img {
 		padding-top: 0;
 	}
 
+	
 	#column1 {
-		padding-left: 1em;
+		padding-left: 2.25em;
 		padding-right: 1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 1em;
+		padding-left: 2.25em;
 		padding-right: 1em;
 		display: inline;
 	}
+
 	.parallax { 
     background-image: url("bigcover.jpeg");
     background-attachment: scroll;
@@ -861,6 +871,9 @@ div.flexslider img {
 	}
 
 
+.flexslider {
+	margin: 20px 0 0 20px;
+}
 
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
@@ -930,17 +943,20 @@ div.flexslider img {
 		padding-top: 5em;
 	}
 
+	
+	#column1 {
+		padding-left: 2.25em;
+		padding-right: 1em;
+		display: inline;
+		padding-top: 5em;
+	}
+
 	#column2 {
-		padding-left: 1em;
+		padding-left: 2.25em;
 		padding-right: 1em;
 		display: inline;
 	}
 
-	#column2 {
-		padding-left: 1em;
-		padding-right: 2em;
-		display: inline;
-	}
 
 	.parallax { 
     background-image: url("bigcover.jpeg");
@@ -1030,6 +1046,10 @@ div.flexslider img {
 		height: 50%;
 		position: relative;
 	}
+
+.flexslider {
+	margin: 20px 0 0 20px;
+}
 
 }
 
@@ -1190,6 +1210,10 @@ div.flexslider img {
      	width: auto;
      	height: auto;
 	}
+	
+.flexslider {
+	margin: 20px 0 0 20px;
+}
 
 	*::-webkit-media-controls-start-playback-button {
   display: none!important;
