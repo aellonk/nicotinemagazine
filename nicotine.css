@@ -1034,7 +1034,80 @@ div.flexslider img {
  /* ----------------------------media queries -----------------------------*/
 
 
-* ----------- iPhone 5 and 5S ----------- */
+
+
+
+
+
+
+
+
+
+/* media queries for laptops*/
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) { 
+	
+	footer img {
+	max-height: 30px;
+   	max-width: 30px;
+     	width: auto;
+     	height: auto;
+	}
+	
+	#mobilearrow{
+		display: none;
+		visibility: hidden;
+	}
+
+}
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+	
+	footer img {
+	max-height: 30px;
+   	max-width: 30px;
+     	width: auto;
+     	height: auto;
+	}
+
+	#mobilearrow {
+	display: none;
+	visibility: hidden;
+}
+}
+
+/* ---------- X-Large Screens ---------- */
+
+@media screen and (min-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 1) { 
+	
+
+
+
+}
+
+/* ----------carton media queries --------*/
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px){
+	.galleryItem {width: 21%;}
+}
+
+@media only screen and (max-width : 720px), only screen and (max-device-width : 720px){
+	.galleryItem {width: 29.33333%;}
+}
+
+@media only screen and (max-width : 530px), only screen and (max-device-width : 530px){
+	.galleryItem {width: 46%;}
+}
+ 
+@media only screen and (max-width : 320px), only screen and (max-device-width : 320px){
+	.galleryItem {width: 96%;}
+	.galleryItem img {width: 96%;}
+	.galleryItem h3 {font-size: 3em;}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
@@ -1616,82 +1689,8 @@ div.flexslider img {
 }
 
 
-
-
-
-
-
-
-
-
-/* media queries for laptops*/
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) { 
-	
-	footer img {
-	max-height: 30px;
-   	max-width: 30px;
-     	width: auto;
-     	height: auto;
-	}
-	
-	#mobilearrow{
-		display: none;
-		visibility: hidden;
-	}
-
-}
-
-/* ----------- Retina Screens ----------- */
-
-@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
-	
-	footer img {
-	max-height: 30px;
-   	max-width: 30px;
-     	width: auto;
-     	height: auto;
-	}
-
-	#mobilearrow {
-	display: none;
-	visibility: hidden;
-}
-}
-
-/* ---------- X-Large Screens ---------- */
-
-@media screen and (min-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 1) { 
-	
-
-
-
-}
-
-/* ----------carton media queries --------*/
-@media only screen and (max-width : 940px), only screen and (max-device-width : 940px){
-	.galleryItem {width: 21%;}
-}
-
-@media only screen and (max-width : 720px), only screen and (max-device-width : 720px){
-	.galleryItem {width: 29.33333%;}
-}
-
-@media only screen and (max-width : 530px), only screen and (max-device-width : 530px){
-	.galleryItem {width: 46%;}
-}
- 
-@media only screen and (max-width : 320px), only screen and (max-device-width : 320px){
-	.galleryItem {width: 96%;}
-	.galleryItem img {width: 96%;}
-	.galleryItem h3 {font-size: 3em;}
-}
-
-/* ----------- iPhone 5 and 5S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+/* iphone 5 and 5s Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 	
 
 	.logo {
@@ -1745,21 +1744,21 @@ div.flexslider img {
 	}
 
 	.editorcol-1-2 {
-		font-size: 1em;
+		font-size: 1.1em;
 		width: auto;
 		padding-top: 0;
 	}
 
 	#column1 {
-		padding-left: 3em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 2.25em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 	}
 
@@ -1855,10 +1854,6 @@ div.flexslider img {
 	}
 
 
-.flexslider {
-	margin: 20px 0 0 20px;
-}
-
 /*
 	@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) { .textwrapper { margin-top:37%; font-size: 2em; } #contribcontainer {margin-left: 10%;}} }
 	_:-webkit-full-screen:not(:root:root), .textwrapper { margin-top:37%; font-size: 2em;} 
@@ -1871,13 +1866,777 @@ div.flexslider img {
 	}	
 }
 
+/* iphone 5 Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+		.logo {
+		height: 18em;
+	}
 
+	.nav-top {
+		padding-top: 12px;
+		margin-left: 78px;
+	}
+
+
+	ul {
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+
+	ul li a {
+		padding-right: 1.25em;
+	}
+
+		.bottom-align {
+	bottom: 50px;
+	}
+
+	.contentsarrow {
+		top: 1050px;
+	}
+
+	.masthead {
+		font-size: 1.5em;
+	}
+
+	.center-horizontal {
+	left: 47%;
+	}
+
+
+	.cover {
+	height: 1150px;
+	width: 819px;
+	margin: 0 auto;
+	padding-top: 126px;
+	}
+
+	.down-arrow {
+	height: 3em;
+	width: 3em;
+	}
+
+	.editor {
+		font-size: 2.3em;
+		width: 80%;
+	}
+
+	.editor {
+	color: black;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+#column1 {
+	padding-left: 4.5em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+
+#column2 {
+	padding-left: 1em;
+	padding-right: 4.5em;
+}
+
+.editorcol-1-2 {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+		padding-top: 4em;
+		font-size: .85em;
+}
+
+
+
+
+
+	.break {
+		display: block;
+	}
+
+	.parallax { 
+    background-image: url("issue17mobileSR/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	}
+
+	.parallax2 { 
+    display: none;
+}
+	
+	
+	.contents-adjust {
+	float: none;
+	padding-right: 0;
+	}
+
+	.scroller {
+	padding-left: 5em;
+}
+	.col-1-4 {
+		font-size: 2em;
+	}
+
+	.col-1-2 {
+		width: 50%;
+	}
+
+	ol {
+	padding-top: 2em;
+	padding-left: 0;
+}
+
+	ol.contentscolumn2{
+	padding-left: 0;
+}
+	.nav-left {
+	width: 40%;
+	}
+
+	h3 {
+		font-size: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	.col-1-4 {
+		float: none;
+		padding-bottom: 0;
+	}
+
+	#center-vertical {
+		display: block;
+	}
+	
+	#mobilearrow {
+		visibility: visible;
+	}
+
+	address {
+		padding-bottom: 1em;
+	}
+	
+	address a {
+	font-size: 30px;
+	}
+	
+	address p {
+	font-size: 75px;
+	}
+
+	footer img {
+     	width: 75px;
+     	height: 75px;
+	}
+
+
+	#contribcolumn1 {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10%;
+	}
+
+	.contribcontainer {
+		display: inline-flex;
+		height: 50%;
+		position: relative;
+	}
+
+
+}
 
 
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+#issueimg1 {
+    background-image: url("issue17mobileSR/nicotine17_page01.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg2 {
+    background-image: url("issue17mobileSR/nicotine17_page02.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg3 {
+    background-image: url("issue17mobileSR/nicotine17_page03.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg4 {
+    background-image: url("issue17mobileSR/nicotine17_page04.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg5 {
+    background-image: url("issue17mobileSR/nicotine17_page05.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg6 {
+    background-image: url("issue17mobileSR/nicotine17_page06.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg7 {
+    background-image: url("issue17mobileSR/nicotine17_page07.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg8 {
+    background-image: url("issue17mobileSR/nicotine17_page08.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg9 {
+    background-image: url("issue17mobileSR/nicotine17_page09.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg10 {
+    background-image: url("issue17mobileSR/nicotine17_page10.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg11 {
+    background-image: url("issue17mobileSR/nicotine17_page11.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg12 {
+    background-image: url("issue17mobileSR/nicotine17_page12.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg13 {
+    background-image: url("issue17mobileSR/nicotine17_page13.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg14 {
+    background-image: url("issue17mobileSR/nicotine17_page14.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg15 {
+    background-image: url("issue17mobileSR/nicotine17_page15.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg16 {
+    background-image: url("issue17mobileSR/nicotine17_page16.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg17 {
+    background-image: url("issue17mobileSR/nicotine17_page17.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg18 {
+    background-image: url("issue17mobileSR/nicotine17_page18.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg19 {
+    background-image: url("issue17mobileSR/nicotine17_page19.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg20 {
+    background-image: url("issue17mobileSR/nicotine17_page20.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg21 {
+    background-image: url("issue17mobileSR/nicotine17_page21.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg22 {
+    background-image: url("issue17mobileSR/nicotine17_page22.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg23 {
+    background-image: url("issue17mobileSR/nicotine17_page23.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg24 {
+    background-image: url("issue17mobileSR/nicotine17_page24.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg25 {
+    background-image: url("issue17mobileSR/nicotine17_page25.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg26 {
+    background-image: url("issue17mobileSR/nicotine17_page26.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg27 {
+    background-image: url("issue17mobileSR/nicotine17_page27.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#issueimg28 {
+    background-image: url("issue17mobileSR/nicotine17_page28.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg29 {
+    background-image: url("issue17mobileSR/nicotine17_page29.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg30 {
+    background-image: url("issue17mobileSR/nicotine17_page30.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg31 {
+    background-image: url("issue17mobileSR/nicotine17_page31.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg32 {
+    background-image: url("issue17mobileSR/nicotine17_page32.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg33 {
+    background-image: url("issue17mobileSR/nicotine17_page33.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg34 {
+    background-image: url("issue17mobileSR/nicotine17_page34.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg35 {
+    background-image: url("issue17mobileSR/nicotine17_page35.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg36 {
+    background-image: url("issue17mobileSR/nicotine17_page36.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg37 {
+    background-image: url("issue17mobileSR/nicotine17_page37.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg38 {
+    background-image: url("issue17mobileSR/nicotine17_page38.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg39 {
+    background-image: url("issue17mobileSR/nicotine17_page39.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg40 {
+    background-image: url("issue17mobileSR/nicotine17_page40.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg42 {
+    background-image: url("issue17mobileSR/nicotine17_page42.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg43 {
+    background-image: url("issue17mobileSR/nicotine17_page43.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg44 {
+    background-image: url("issue17mobileSR/nicotine17_page44.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg45 {
+    background-image: url("issue17mobileSR/nicotine17_page45.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg46 {
+    background-image: url("issue17mobileSR/nicotine17_page46.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg47 {
+    background-image: url("issue17mobileSR/nicotine17_page47.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg48 {
+    background-image: url("issue17mobileSR/nicotine17_page48.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg49 {
+    background-image: url("issue17mobileSR/nicotine17_page49.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg50 {
+    background-image: url("issue17mobileSR/nicotine17_page50.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg51 {
+    background-image: url("issue17mobileSR/nicotine17_page51.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg52 {
+    background-image: url("issue17mobileSR/nicotine17_page52.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg53 {
+    background-image: url("issue17mobileSR/nicotine17_page53.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg54 {
+    background-image: url("issue17mobileSR/nicotine17_page54.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg55 {
+    background-image: url("issue17mobileSR/nicotine17_page55.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg56 {
+    background-image: url("issue17mobileSR/nicotine17_page56.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg57 {
+    background-image: url("issue17mobileSR/nicotine17_page57.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg58 {
+    background-image: url("issue17mobileSR/nicotine17_page58.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg59 {
+    background-image: url("issue17mobileSR/nicotine17_page59.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg60 {
+    background-image: url("issue17mobileSR/nicotine17_page60.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg61 {
+    background-image: url("issue17mobileSR/nicotine17_page61.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg62 {
+    background-image: url("issue17mobileSR/nicotine17_page62.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg63 {
+    background-image: url("issue17mobileSR/nicotine17_page63.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg64 {
+    background-image: url("issue17mobileSR/nicotine17_page64.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+}
+
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)  { 
 	
 		.logo {
 		height: 24em;
@@ -1940,15 +2699,15 @@ div.flexslider img {
 
 	
 	#column1 {
-		padding-left: 2.25em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 2.25em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 	}
 
@@ -2055,12 +2814,781 @@ div.flexslider img {
 }
 
 
+/* ----------- iphone 6 landscape -------*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)  { 
+
+	.logo {
+		height: 18em;
+	}
+
+	.nav-top {
+		padding-top: 12px;
+		margin-left: 78px;
+	}
+
+
+	ul {
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+
+	ul li a {
+		padding-right: 1.25em;
+	}
+	.cover {
+	height: 1150px;
+	width: 819px;
+	margin: 0 auto;
+	padding-top: 126px;
+	}
+
+
+	.down-arrow {
+	height: 3em;
+	width: 3em;
+	}
+
+		.center-horizontal {
+	left: 47%;
+	}
+
+
+	.bottom-align {
+	bottom: 50px;
+	}
+
+	.contentsarrow {
+		top: 1050px;
+	}
+
+
+	.masthead {
+		font-size: 1.5em;
+	}
+
+
+	.break {
+		display: block;
+	}
+
+	.editor {
+	color: black;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+
+	.editorcol-1-2 {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+		padding-top: 4em;
+		font-size: .85em;
+}
+
+
+	
+	#column1 {
+	padding-left: 4.5em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+
+#column2 {
+	padding-left: 1em;
+	padding-right: 4.5em;
+}
+
+	.parallax { 
+    background-image: url("issue17mobileSR/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: center;
+	}
+
+		.parallax2 { 
+    display: none;
+}
+
+	.contents-adjust {
+	float: none;
+	padding-right: 0;
+	}
+
+	.scroller {
+	padding-left: 5em;
+}
+
+	.col-1-4 {
+		font-size: 2em;
+	}
+
+	.col-1-2 {
+		width: 50%;
+	}
+
+	ol {
+	padding-top: 2em;
+	padding-left: 0;
+}
+
+	ol.contentscolumn2{
+	padding-left: 0;
+}
+
+	.nav-left {
+	width: 40%;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 5em;
+	}
+
+	.col-1-4 {
+		float: none;
+		padding-bottom: 0;
+	}
+
+	#center-vertical {
+		display: block;
+	}
+	
+	#mobilearrow {
+		visibility: visible;
+	}
+	
+	address {
+		padding-bottom: 1em;
+	}
+	
+	address a {
+	font-size: 30px;
+	}
+	
+	address p {
+	font-size: 75px;
+	}
+
+	footer img {
+     	width: 75px;
+     	height: 75px;
+	}
+
+#contribcolumn1 {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10%;
+	}
+
+	.contribcontainer {
+		display: inline-flex;
+		height: 50%;
+		position: relative;
+	}
+
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
+
+}
+
+
+
+
 
 /* ----------- iPhone 6+ ----------- */
 
-/* Portrait and Landscape */
 
+/* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+#issueimg1 {
+    background-image: url("issue17mobileSR/nicotine17_page01.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg2 {
+    background-image: url("issue17mobileSR/nicotine17_page02.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg3 {
+    background-image: url("issue17mobileSR/nicotine17_page03.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg4 {
+    background-image: url("issue17mobileSR/nicotine17_page04.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg5 {
+    background-image: url("issue17mobileSR/nicotine17_page05.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg6 {
+    background-image: url("issue17mobileSR/nicotine17_page06.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg7 {
+    background-image: url("issue17mobileSR/nicotine17_page07.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg8 {
+    background-image: url("issue17mobileSR/nicotine17_page08.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg9 {
+    background-image: url("issue17mobileSR/nicotine17_page09.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg10 {
+    background-image: url("issue17mobileSR/nicotine17_page10.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg11 {
+    background-image: url("issue17mobileSR/nicotine17_page11.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg12 {
+    background-image: url("issue17mobileSR/nicotine17_page12.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg13 {
+    background-image: url("issue17mobileSR/nicotine17_page13.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg14 {
+    background-image: url("issue17mobileSR/nicotine17_page14.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg15 {
+    background-image: url("issue17mobileSR/nicotine17_page15.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg16 {
+    background-image: url("issue17mobileSR/nicotine17_page16.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg17 {
+    background-image: url("issue17mobileSR/nicotine17_page17.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg18 {
+    background-image: url("issue17mobileSR/nicotine17_page18.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg19 {
+    background-image: url("issue17mobileSR/nicotine17_page19.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg20 {
+    background-image: url("issue17mobileSR/nicotine17_page20.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg21 {
+    background-image: url("issue17mobileSR/nicotine17_page21.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg22 {
+    background-image: url("issue17mobileSR/nicotine17_page22.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg23 {
+    background-image: url("issue17mobileSR/nicotine17_page23.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg24 {
+    background-image: url("issue17mobileSR/nicotine17_page24.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg25 {
+    background-image: url("issue17mobileSR/nicotine17_page25.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg26 {
+    background-image: url("issue17mobileSR/nicotine17_page26.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg27 {
+    background-image: url("issue17mobileSR/nicotine17_page27.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#issueimg28 {
+    background-image: url("issue17mobileSR/nicotine17_page28.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg29 {
+    background-image: url("issue17mobileSR/nicotine17_page29.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg30 {
+    background-image: url("issue17mobileSR/nicotine17_page30.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg31 {
+    background-image: url("issue17mobileSR/nicotine17_page31.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg32 {
+    background-image: url("issue17mobileSR/nicotine17_page32.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg33 {
+    background-image: url("issue17mobileSR/nicotine17_page33.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg34 {
+    background-image: url("issue17mobileSR/nicotine17_page34.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg35 {
+    background-image: url("issue17mobileSR/nicotine17_page35.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg36 {
+    background-image: url("issue17mobileSR/nicotine17_page36.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg37 {
+    background-image: url("issue17mobileSR/nicotine17_page37.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg38 {
+    background-image: url("issue17mobileSR/nicotine17_page38.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg39 {
+    background-image: url("issue17mobileSR/nicotine17_page39.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg40 {
+    background-image: url("issue17mobileSR/nicotine17_page40.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg42 {
+    background-image: url("issue17mobileSR/nicotine17_page42.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg43 {
+    background-image: url("issue17mobileSR/nicotine17_page43.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg44 {
+    background-image: url("issue17mobileSR/nicotine17_page44.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg45 {
+    background-image: url("issue17mobileSR/nicotine17_page45.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg46 {
+    background-image: url("issue17mobileSR/nicotine17_page46.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg47 {
+    background-image: url("issue17mobileSR/nicotine17_page47.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg48 {
+    background-image: url("issue17mobileSR/nicotine17_page48.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg49 {
+    background-image: url("issue17mobileSR/nicotine17_page49.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg50 {
+    background-image: url("issue17mobileSR/nicotine17_page50.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg51 {
+    background-image: url("issue17mobileSR/nicotine17_page51.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg52 {
+    background-image: url("issue17mobileSR/nicotine17_page52.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg53 {
+    background-image: url("issue17mobileSR/nicotine17_page53.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg54 {
+    background-image: url("issue17mobileSR/nicotine17_page54.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg55 {
+    background-image: url("issue17mobileSR/nicotine17_page55.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg56 {
+    background-image: url("issue17mobileSR/nicotine17_page56.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#issueimg57 {
+    background-image: url("issue17mobileSR/nicotine17_page57.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg58 {
+    background-image: url("issue17mobileSR/nicotine17_page58.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg59 {
+    background-image: url("issue17mobileSR/nicotine17_page59.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg60 {
+    background-image: url("issue17mobileSR/nicotine17_page60.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg61 {
+    background-image: url("issue17mobileSR/nicotine17_page61.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg62 {
+    background-image: url("issue17mobileSR/nicotine17_page62.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg63 {
+    background-image: url("issue17mobileSR/nicotine17_page63.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg64 {
+    background-image: url("issue17mobileSR/nicotine17_page64.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+}
+
+/* iPhone 6+ Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  (orientation: portrait) { 
 	.logo {
 		height: 24em;
 	}
@@ -2120,15 +3648,15 @@ div.flexslider img {
 
 	
 	#column1 {
-		padding-left: 2.25em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 2.25em;
-		padding-right: 1em;
+		padding-left: 4em;
+		padding-right: 1.1em;
 		display: inline;
 	}
 
@@ -2231,9 +3759,192 @@ div.flexslider img {
 		position: relative;
 	}
 
-.flexslider {
-	margin: 20px 0 0 20px;
 }
+
+
+/* ----------- iphone 6+ landscape -------*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+
+	.logo {
+		height: 18em;
+	}
+
+	.nav-top {
+		padding-top: 12px;
+		margin-left: 78px;
+	}
+
+
+	ul {
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+
+	ul li a {
+		padding-right: 1.25em;
+	}
+	.cover {
+	height: 1150px;
+	width: 819px;
+	margin: 0 auto;
+	padding-top: 126px;
+	}
+
+
+	.down-arrow {
+	height: 3em;
+	width: 3em;
+	}
+
+		.center-horizontal {
+	left: 47%;
+	}
+
+
+	.bottom-align {
+	bottom: 50px;
+	}
+
+	.contentsarrow {
+		top: 1050px;
+	}
+
+
+	.masthead {
+		font-size: 1.5em;
+	}
+
+
+	.break {
+		display: block;
+	}
+
+	.editor {
+	color: black;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+
+	.editorcol-1-2 {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+		padding-top: 4em;
+		font-size: .85em;
+}
+
+
+	
+	#column1 {
+	padding-left: 4.5em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+
+#column2 {
+	padding-left: 1em;
+	padding-right: 4.5em;
+}
+
+	.parallax { 
+    background-image: url("issue17mobileSR/bigcover.jpg");
+    background-attachment: scroll;
+	background-position: center;
+	}
+
+		.parallax2 { 
+    display: none;
+}
+
+	.contents-adjust {
+	float: none;
+	padding-right: 0;
+	}
+
+	.scroller {
+	padding-left: 5em;
+}
+
+	.col-1-4 {
+		font-size: 2em;
+	}
+
+	.col-1-2 {
+		width: 50%;
+	}
+
+	ol {
+	padding-top: 2em;
+	padding-left: 0;
+}
+
+	ol.contentscolumn2{
+	padding-left: 0;
+}
+
+	.nav-left {
+	width: 40%;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 5em;
+	}
+
+	.col-1-4 {
+		float: none;
+		padding-bottom: 0;
+	}
+
+	#center-vertical {
+		display: block;
+	}
+	
+	#mobilearrow {
+		visibility: visible;
+	}
+	
+	address {
+		padding-bottom: 1em;
+	}
+	
+	address a {
+	font-size: 30px;
+	}
+	
+	address p {
+	font-size: 75px;
+	}
+
+	footer img {
+     	width: 75px;
+     	height: 75px;
+	}
+
+#contribcolumn1 {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10%;
+	}
+
+	.contribcontainer {
+		display: inline-flex;
+		height: 50%;
+		position: relative;
+	}
+
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
 
 }
 
@@ -2482,27 +4193,237 @@ div.flexslider img {
 
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.logo {
+		height: 22em;
+	}
+
+	.nav-top {
+		padding-top: 12px;
+		margin-left: 80px;
+	}
+
+
+	ul {
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+
+	ul li a {
+		padding-right: 1.25em;
+	}
+
+
+	.cover {
+	height: 92vh;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 7em;
+	}
+
+	.down-arrow {
+	height: 4em;
+	width: 4em;
+	}
+
+	.bottom-align {
+	bottom: 15px;
+	}
+
+	.contentsarrow {
+	top: 800px;
+}
+
+
+	.center-horizontal {
+		left: 43%;
+	}
+	.masthead {
+		font-size: 2em;
+		width: 100%;
+	}
+	
+	.break {
+		display: block;
+	}
+
+	.editor {
+		font-size: 2.3em;
+		width: 80%;
+	}
+
+		.editorcol-1-2 {
+		font-size: .9em;
+		width: auto;
+		padding-top: 0;
+	}
+
+	#column1 {
+		padding-left: 3.9em;
+		padding-right: 1em;
+		display: inline;
+		padding-top: 5em;
+	}
+
+	#column2 {
+		padding-left: 3.9em;
+		padding-right: 1em;
+		display: inline;
+	}
+
+
+	.parallax { 
+    background-image: url("bigcover.jpg");
+    background-attachment: scroll;
+	background-position: center;
+	}
+
+	.parallax2 { 
+    display: none;
+}
+
+.contents-adjust {
+	float: none;
+	padding-right: 0;
+	}
+
+	.scroller {
+	padding-left: 5em;
+}	
+
+	.col-1-4 {
+		font-size: 2.25em;
+				float: none;
+		padding-bottom: 0;
+	}
+	.col-1-2 {
+		width: 50%;
+	}
+
+	.nav-left {
+	width: 40%;
+	}
+
+	ol {
+		padding-left: 1.6em;
+	}
+
+	ol.contentscolumn2{
+	padding-left: 1.6em;
+}
+
+
+	h3 {
+		font-size: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+	}
+
+	.col-1-3 {
+		width: 100%;
+	}
+
+	#center-vertical {
+		display: block;
+	}
+
+	#hint {
+		visibility: hidden;
+	}
+
+	address {
+		padding-bottom: 1em;
+	}
+
+	address a {
+	font-size: 1em;
+	}
+	
+	address p {
+	font-size: 3em;
+	}
+
+	footer img {
+		max-height: 50px;
+   		max-width: 50px;
+     	width: auto;
+     	height: auto;
+	}
+
+.flexslider {
+	margin: 20px 0 0 20px;
+}
+
+	*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+	}	
+
 
 }
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	#container {
+		height: auto;
+	}
+
+	.flex-item1 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+   order: 2;
+   flex-grow: 1;
+  margin-right: 1em;
 
 }
+}
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+/* iPad 3 and 4 Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+.down-arrow {
+	height: 3em;
+	width: 3em;
+}
 
+.editor {
+		font-size: 2.3em;
+		width: 80%;
+	}
+
+	.editor {
+	color: black;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+#column1 {
+	padding-left: 4.5em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+
+#column2 {
+	padding-left: 1em;
+	padding-right: 4.5em;
+}
+
+.editorcol-1-2 {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+		padding-top: 4em;
+		font-size: .85em;
+}
+
+.center-horizontal {
+	left: 47%;
+}
 }
