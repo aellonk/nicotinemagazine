@@ -214,7 +214,7 @@ h4 {
 }
 
 .parallax { 
-   background-image: url("bigcover.jpeg");
+   background-image: url("bigcover.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -223,7 +223,7 @@ h4 {
 }
 
 .parallax2 { 
-    background-image: url("bigcover.jpeg");
+    background-image: url("bigcover.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -989,7 +989,7 @@ footer.social-media img {
 
 
 
-/* ---- custom flexslider ----- */
+/* ---- custom flexslider ----- 
 div.flexslider img {
 	max-height: 100vh;
 	max-width: 90%;
@@ -1001,7 +1001,7 @@ div.flexslider img {
 	height: 89vh;
 	width: 89vw;
 }
-
+*/
 
 /* ------ */
 
@@ -1759,7 +1759,7 @@ div.flexslider img {
 	}
 
 	.parallax { 
-    background-image: url("issue17mobileSR/bigcover.jpeg");
+    background-image: url("issue17mobileSR/bigcover.jpg");
     background-attachment: scroll;
 	background-position: center;
 	background-size: cover;
@@ -1944,7 +1944,7 @@ div.flexslider img {
 	}
 
 	.parallax { 
-    background-image: url("issue17mobileSR/bigcover.jpeg");
+    background-image: url("issue17mobileSR/bigcover.jpg");
     background-attachment: scroll;
 	background-position: center;
 	}
@@ -2122,7 +2122,7 @@ div.flexslider img {
 
 
 	.parallax { 
-    background-image: url("issue17mobileSR/bigcover.jpeg");
+    background-image: url("issue17mobileSR/bigcover.jpg");
     background-attachment: scroll;
 	background-position: center;
 	}
@@ -2304,7 +2304,7 @@ div.flexslider img {
 
 
 	.parallax { 
-    background-image: url("bigcover.jpeg");
+    background-image: url("bigcover.jpg");
     background-attachment: scroll;
 	background-position: center;
 	}
