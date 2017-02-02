@@ -1820,6 +1820,7 @@ div.flexslider img {
 	}
 	
 	#mobilearrow {
+        display: block;
 		visibility: visible;
 	}
 
@@ -2015,8 +2016,9 @@ div.flexslider img {
 	}
 	
 	#mobilearrow {
-		visibility: visible;
-	}
+        display: block;
+        visibility: visible;
+    }
 
 	address {
 		padding-bottom: 1em;
@@ -2054,7 +2056,7 @@ div.flexslider img {
 
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
+/* iphone6 Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
 #issueimg1 {
     background-image: url("issue17mobileSR/nicotine17_page01.jpg");
@@ -2635,7 +2637,7 @@ div.flexslider img {
 }
 
 
-/* Portrait */
+/* iphone 6 Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)  { 
 	
 		.logo {
@@ -2769,8 +2771,9 @@ div.flexslider img {
 	}
 	
 	#mobilearrow {
-		visibility: visible;
-	}
+        display: block;
+        visibility: visible;
+    }
 	
 	address {
 		padding-bottom: 1em;
@@ -2960,8 +2963,9 @@ div.flexslider img {
 	}
 	
 	#mobilearrow {
-		visibility: visible;
-	}
+        display: block;
+        visibility: visible;
+    }
 	
 	address {
 		padding-bottom: 1em;
@@ -3722,8 +3726,9 @@ div.flexslider img {
 	}
 
 	#mobilearrow {
-		visibility: visible;
-	}
+        display: block;
+        visibility: visible;
+    }
 
 	address {
 		padding-bottom: 1em;
@@ -3908,8 +3913,9 @@ div.flexslider img {
 	}
 	
 	#mobilearrow {
-		visibility: visible;
-	}
+        display: block;
+        visibility: visible;
+    }
 	
 	address {
 		padding-bottom: 1em;
