@@ -1722,6 +1722,10 @@ div.flexslider img {
 	width: 6em;
 	}
 
+	.bottom-align {
+	bottom: 50px;
+	}
+
 	.contentsarrow {
 		top: 1050px;
 	}
@@ -1900,8 +1904,12 @@ div.flexslider img {
 	}
 
 	.down-arrow {
-	height: 7em;
-	width: 7em;
+	height: 6em;
+	width: 6em;
+	}
+
+	.bottom-align {
+	bottom: 50px;
 	}
 
 	.contentsarrow {
@@ -2076,10 +2084,13 @@ div.flexslider img {
 	padding-top: 126px;
 	}
 	.down-arrow {
-	height: 8em;
-	width: 8em;
+	height: 6em;
+	width: 6em;
 	}
 
+	.bottom-align {
+	bottom: 50px;
+	}
 	.contentsarrow {
 		top: 1050px;
 	}
@@ -2257,8 +2268,12 @@ div.flexslider img {
 	}
 
 	.down-arrow {
-	height: 8em;
-	width: 8em;
+	height: 6em;
+	width: 6em;
+	}
+
+	.bottom-align {
+	bottom: 50px;
 	}
 
 	.contentsarrow {
