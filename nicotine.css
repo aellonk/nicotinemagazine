@@ -4129,26 +4129,30 @@ div.flexslider img {
   -webkit-appearance: none;
 	}	
 
+    div.contribsection {
+    height: 25vh;
+}
+
 }
 
 
 
-/* ipad1 and ipad2 Portrait */
+/* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	#container {
 		height: auto;
 	}
 
-#contribcolumn1 {
-        margin-left: 10%;
-        margin-top: 10%;
-    }
+	.flex-item1 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+   order: 2;
+   flex-grow: 1;
+  margin-right: 1em;
 
-    .contribcontainer {
-        display: inline-flex;
-        height: 50%;
-        position: relative;
-    }
+}
 
 
 	
@@ -4372,21 +4376,28 @@ div.flexslider img {
   -webkit-appearance: none;
 	}	
 
+   div.contribsection {
+    height: 25vh;
+}
+
 
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-#contribcolumn1 {
-        margin-left: 10%;
-        margin-top: 10%;
-    }
+	#container {
+		height: auto;
+	}
 
-    .contribcontainer {
-        display: inline-flex;
-        height: 50%;
-        position: relative;
-    }
+	.flex-item1 {
+  padding: 5px;
+  width: 6em;
+  height: 100%;
+  margin-top: 10px;
+   order: 2;
+   flex-grow: 1;
+  margin-right: 1em;
+
 }
 }
 
