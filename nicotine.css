@@ -1743,6 +1743,11 @@ div.flexslider img {
 		display: block;
 	}
 
+
+	div#editorletter.section{
+		height: 100%;
+	}
+
 	.editorcol-1-2 {
 		font-size: 1.4em;
 		width: auto;
@@ -1750,7 +1755,7 @@ div.flexslider img {
 	}
 
 	#column1 {
-		padding-left: 2.25em;
+		padding-left: 3em;
 		padding-right: 1em;
 		display: inline;
 		padding-top: 5em;
