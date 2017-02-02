@@ -36,6 +36,7 @@ div.section {
 	height: 100vh;
 }
  
+
  .cover {
  	height: 95%;
  	display: block;
@@ -164,7 +165,7 @@ div.section {
 	margin: 0 auto;
 	text-align: justify;
 		padding-top: 4.5em;
-		font-size: .9em;
+		font-size: .95em;
 }
 .grid:after {
   content: "";
@@ -1743,13 +1744,8 @@ div.flexslider img {
 		display: block;
 	}
 
-
-	div#editorletter.section{
-		height: 100%;
-	}
-
 	.editorcol-1-2 {
-		font-size: 1.4em;
+		font-size: 1em;
 		width: auto;
 		padding-top: 0;
 	}
@@ -1937,7 +1933,7 @@ div.flexslider img {
 	}
 
 	.editorcol-1-2 {
-		font-size: 1.4em;
+		font-size: 1.1em;
 		width: auto;
 		padding-top: 0;
 	}
@@ -2110,7 +2106,7 @@ div.flexslider img {
 	}
 
 	.editorcol-1-2 {
-		font-size: 1.4em;
+		font-size: 1.1em;
 		width: auto;
 		padding-top: 0;
 	}
@@ -2246,7 +2242,7 @@ div.flexslider img {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 	
 	.logo {
-		height: 25em;
+		height: 22em;
 	}
 
 	.nav-top {
@@ -2256,7 +2252,7 @@ div.flexslider img {
 
 
 	ul {
-		font-size: 2em;
+		font-size: 1.5em;
 		padding-left: 0;
 	}
 
@@ -2273,12 +2269,12 @@ div.flexslider img {
 	}
 
 	.down-arrow {
-	height: 6em;
-	width: 6em;
+	height: 4em;
+	width: 4em;
 	}
 
 	.bottom-align {
-	bottom: 50px;
+	bottom: 15px;
 	}
 
 	.contentsarrow {
@@ -2304,20 +2300,20 @@ div.flexslider img {
 	}
 
 		.editorcol-1-2 {
-		font-size: 1.4em;
+		font-size: .9em;
 		width: auto;
 		padding-top: 0;
 	}
 
 	#column1 {
-		padding-left: 1em;
+		padding-left: 3.9em;
 		padding-right: 1em;
 		display: inline;
 		padding-top: 5em;
 	}
 
 	#column2 {
-		padding-left: 1em;
+		padding-left: 3.9em;
 		padding-right: 1em;
 		display: inline;
 	}
@@ -2439,6 +2435,48 @@ div.flexslider img {
 
 /* Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+.down-arrow {
+	height: 3em;
+	width: 3em;
+}
+
+.editor {
+		font-size: 2.3em;
+		width: 80%;
+	}
+
+	.editor {
+	color: black;
+	font-size: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+}
+
+#column1 {
+	padding-left: 4.5em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+
+#column2 {
+	padding-left: 1em;
+	padding-right: 4.5em;
+}
+
+.editorcol-1-2 {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: justify;
+		padding-top: 4em;
+		font-size: .85em;
+}
+
+.center-horizontal {
+	left: 47%;
+}
+
 
 }
 
