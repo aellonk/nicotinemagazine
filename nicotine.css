@@ -992,7 +992,32 @@ footer.social-media img {
     background-size: contain;
 }
 
+#issueimg65 {
+    background-image: url("issue17/nicotine17_page65.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+#issueimg66{
+    background-image: url("issue17/nicotine17_page66.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg67{
+    background-image: url("issue17/nicotine17_page67.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* ---- custom flexslider ----- 
 div.flexslider img {
@@ -1683,6 +1708,32 @@ div.flexslider img {
 
 #issueimg64 {
     background-image: url("issue17mobileSR/nicotine17_page64.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#issueimg65 {
+    background-image: url("issue17mobileSR/nicotine17_page65.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg66{
+    background-image: url("issue17mobileSR/nicotine17_page66.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg67{
+    background-image: url("issue17mobileSR/nicotine17_page67.jpg");
     height: 100vh;
     
     background-position: right;
@@ -2637,6 +2688,32 @@ div.flexslider img {
     background-size: contain;
 }
 
+#issueimg65 {
+    background-image: url("issue17mobileSR/nicotine17_page65.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg66{
+    background-image: url("issue17mobileSR/nicotine17_page66.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg67{
+    background-image: url("issue17mobileSR/nicotine17_page67.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 }
 
@@ -3591,7 +3668,33 @@ div.flexslider img {
     background-repeat: no-repeat;
     background-size: contain;
 }
+	
+#issueimg65 {
+    background-image: url("issue17mobileSR/nicotine17_page65.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+#issueimg66{
+    background-image: url("issue17mobileSR/nicotine17_page66.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#issueimg67{
+    background-image: url("issue17mobileSR/nicotine17_page67.jpg");
+    height: 100vh;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 }
 
 /* iPhone 6+ Portrait */
