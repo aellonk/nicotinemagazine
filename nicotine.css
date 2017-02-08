@@ -1092,8 +1092,16 @@ div.flexslider img {
 }
 
 @media screen and (min-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+    #column1 {
+        padding-left: 30em;
+    }
+
+    #column2 {
+        padding-right: 30em;
+    }
+    
     .editorcol-1-2 {
-        font-size: 1.25em;
+        padding-top: 13em;
     }
 
 }
