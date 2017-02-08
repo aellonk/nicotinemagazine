@@ -1075,7 +1075,7 @@ div.flexslider img {
 /* media queries for laptops*/
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) { 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
 	
 	footer img {
 	max-height: 30px;
@@ -1091,9 +1091,16 @@ div.flexslider img {
 
 }
 
+@media screen and (min-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+    .editorcol-1-2 {
+        font-size: 1.25em;
+    }
+
+}
+
 /* ----------- Retina Screens ----------- */
 
-@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px)  and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
 	
 	footer img {
 	max-height: 30px;
