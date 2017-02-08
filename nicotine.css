@@ -4313,6 +4313,9 @@ div.flexslider img {
 .center-horizontal {
 	left: 47%;
 }
+.flex-item1 {
+    height: 65%;
+}
 
 
 }
@@ -4564,5 +4567,9 @@ div.flexslider img {
 
 .center-horizontal {
 	left: 47%;
+}
+
+.flex-item1 {
+    height: 65%;
 }
 }
