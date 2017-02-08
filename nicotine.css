@@ -4253,12 +4253,12 @@ div.flexslider img {
     }
         .contribcontainer {
         display: inline-block;
-        height: 47vh;
-        width: 60vw;
+        height: 74vh;
+        width: 100vw;
     }
 
     .flex-item1 {
-        height: 95%;
+        height: 46%;
     }
 
 
@@ -4509,14 +4509,14 @@ div.flexslider img {
         height: 78%;
     }
 
-        .contribcontainer {
+     .contribcontainer {
         display: inline-block;
-        height: 47vh;
-        width: 60vw;
+        height: 74vh;
+        width: 100vw;
     }
 
     .flex-item1 {
-        height: 95%;
+        height: 46%;
     }
 
     #contribcolumn1 {
